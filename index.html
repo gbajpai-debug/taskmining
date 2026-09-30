@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)file:///Users/g.bajpai/Downloads/Task_Mining_Battlecard_Internal.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Task Mining — Competitive &amp; Market Intelligence — Celonis</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link href="./Task Mining — Competitive &amp; Market Intelligence — Celonis_files/css2" rel="stylesheet">
+<style>
+/* ============================================================
+   CELONIS HOUSE REPORT — pure CSS, zero JavaScript.
+   Ratio 70 white / 20 black / 5 blue / 5 green. Poppins. No icons.
+   ============================================================ */
+:root{
+  --ink:#000;
+  --paper:#fff;
+  --blue:#4340E8;
+  --green:#0B8A4E;
+  --green-br:#00D97E;
+  --rule:#E2E2E2;
+  --rule-hard:#000;
+  --mute:#6B6B6B;
+  --wash:#F6F6F6;
+  --type:'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--type);font-weight:400;color:var(--ink);background:var(--paper);font-size:15px;line-height:1.62;-webkit-font-smoothing:antialiased;}
+.tabin,.qin,.fin{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;margin:0}
+.shell{display:grid;grid-template-columns:236px minmax(0,1fr);min-height:100vh}
+.rail{border-right:1px solid var(--rule-hard);padding:34px 0 40px;position:sticky;top:0;height:100vh;overflow-y:auto;background:var(--paper);}
+.mark{font-weight:700;font-size:20px;letter-spacing:-.02em;padding:0 22px 4px}
+.mark-sub{font-weight:300;font-size:10.5px;color:var(--mute);padding:0 22px 26px;line-height:1.45}
+.navlist{display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.navlist label{display:grid;grid-template-columns:26px 1fr;gap:9px;align-items:baseline;padding:11px 22px;border-bottom:1px solid var(--rule);cursor:pointer;font-size:12.5px;font-weight:500;line-height:1.32;}
+.navlist label .n{font-weight:300;font-size:11px;color:var(--mute);font-variant-numeric:tabular-nums}
+.navlist label:hover{background:var(--wash)}
+.tabin:focus-visible ~ .shell .navlist{outline:2px solid var(--blue);outline-offset:-2px}
+main{min-width:0}
+.panel{display:none}
+.wrap{max-width:1080px;padding:56px 54px 96px}
+#t0:checked ~ .shell .navlist label[for=t0],
+#t1:checked ~ .shell .navlist label[for=t1],
+#t2:checked ~ .shell .navlist label[for=t2],
+#t3:checked ~ .shell .navlist label[for=t3],
+#t4:checked ~ .shell .navlist label[for=t4],
+#t5:checked ~ .shell .navlist label[for=t5],
+#t6:checked ~ .shell .navlist label[for=t6],
+#t7:checked ~ .shell .navlist label[for=t7],
+#t8:checked ~ .shell .navlist label[for=t8],
+#t9:checked ~ .shell .navlist label[for=t9],
+#t10:checked ~ .shell .navlist label[for=t10],
+#t11:checked ~ .shell .navlist label[for=t11],
+#t12:checked ~ .shell .navlist label[for=t12],
+#t13:checked ~ .shell .navlist label[for=t13]{background:var(--ink);color:var(--paper)}
+#t0:checked ~ .shell .navlist label[for=t0] .n,
+#t1:checked ~ .shell .navlist label[for=t1] .n,
+#t2:checked ~ .shell .navlist label[for=t2] .n,
+#t3:checked ~ .shell .navlist label[for=t3] .n,
+#t4:checked ~ .shell .navlist label[for=t4] .n,
+#t5:checked ~ .shell .navlist label[for=t5] .n,
+#t6:checked ~ .shell .navlist label[for=t6] .n,
+#t7:checked ~ .shell .navlist label[for=t7] .n,
+#t8:checked ~ .shell .navlist label[for=t8] .n,
+#t9:checked ~ .shell .navlist label[for=t9] .n,
+#t10:checked ~ .shell .navlist label[for=t10] .n,
+#t11:checked ~ .shell .navlist label[for=t11] .n,
+#t12:checked ~ .shell .navlist label[for=t12] .n,
+#t13:checked ~ .shell .navlist label[for=t13] .n{color:var(--paper)}
+#t0:checked ~ .shell .p0,
+#t1:checked ~ .shell .p1,
+#t2:checked ~ .shell .p2,
+#t3:checked ~ .shell .p3,
+#t4:checked ~ .shell .p4,
+#t5:checked ~ .shell .p5,
+#t6:checked ~ .shell .p6,
+#t7:checked ~ .shell .p7,
+#t8:checked ~ .shell .p8,
+#t9:checked ~ .shell .p9,
+#t10:checked ~ .shell .p10,
+#t11:checked ~ .shell .p11,
+#t12:checked ~ .shell .p12,
+#t13:checked ~ .shell .p13{display:block}
+
+/* ---------- customize navigation: hide/unhide sections ---------- */
+.vin{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;margin:0}
+.customize{border-top:1px solid var(--rule);border-bottom:1px solid var(--ink);margin-top:8px}
+.customize summary{cursor:pointer;padding:11px 22px;font-size:11px;font-weight:600;letter-spacing:.01em;color:var(--mute);list-style:none;position:relative}
+.customize summary::-webkit-details-marker{display:none}
+.customize summary:hover{color:var(--blue)}
+.customize summary::after{content:"+";position:absolute;right:20px;top:9px;font-size:14px;font-weight:400;color:var(--mute)}
+.customize[open] summary::after{content:"–"}
+.cbody{padding:2px 22px 16px;display:flex;flex-direction:column;gap:1px;border-top:1px solid var(--rule)}
+.vrow{display:flex;align-items:center;gap:9px;padding:6px 0;cursor:pointer;font-size:11.6px;font-weight:400;color:#2A2A2A;line-height:1.3}
+.vbox{width:9px;height:9px;border:1px solid var(--ink);background:var(--paper);flex:0 0 auto;display:inline-block}
+.vrow:hover{color:var(--blue)}
+.vrow:hover .vbox{border-color:var(--blue)}
+#v0:checked ~ .customize .vrow[for="v0"] .vbox,
+#v1:checked ~ .customize .vrow[for="v1"] .vbox,
+#v2:checked ~ .customize .vrow[for="v2"] .vbox,
+#v3:checked ~ .customize .vrow[for="v3"] .vbox,
+#v4:checked ~ .customize .vrow[for="v4"] .vbox,
+#v5:checked ~ .customize .vrow[for="v5"] .vbox,
+#v6:checked ~ .customize .vrow[for="v6"] .vbox,
+#v7:checked ~ .customize .vrow[for="v7"] .vbox,
+#v8:checked ~ .customize .vrow[for="v8"] .vbox,
+#v9:checked ~ .customize .vrow[for="v9"] .vbox,
+#v10:checked ~ .customize .vrow[for="v10"] .vbox,
+#v11:checked ~ .customize .vrow[for="v11"] .vbox,
+#v12:checked ~ .customize .vrow[for="v12"] .vbox,
+#v13:checked ~ .customize .vrow[for="v13"] .vbox{background:var(--ink)}
+#v0:not(:checked) ~ .navlist label[for="t0"],
+#v1:not(:checked) ~ .navlist label[for="t1"],
+#v2:not(:checked) ~ .navlist label[for="t2"],
+#v3:not(:checked) ~ .navlist label[for="t3"],
+#v4:not(:checked) ~ .navlist label[for="t4"],
+#v5:not(:checked) ~ .navlist label[for="t5"],
+#v6:not(:checked) ~ .navlist label[for="t6"],
+#v7:not(:checked) ~ .navlist label[for="t7"],
+#v8:not(:checked) ~ .navlist label[for="t8"],
+#v9:not(:checked) ~ .navlist label[for="t9"],
+#v10:not(:checked) ~ .navlist label[for="t10"],
+#v11:not(:checked) ~ .navlist label[for="t11"],
+#v12:not(:checked) ~ .navlist label[for="t12"],
+#v13:not(:checked) ~ .navlist label[for="t13"]{display:none}
+#v0:not(:checked) ~ .customize .vrow[for="v0"],
+#v1:not(:checked) ~ .customize .vrow[for="v1"],
+#v2:not(:checked) ~ .customize .vrow[for="v2"],
+#v3:not(:checked) ~ .customize .vrow[for="v3"],
+#v4:not(:checked) ~ .customize .vrow[for="v4"],
+#v5:not(:checked) ~ .customize .vrow[for="v5"],
+#v6:not(:checked) ~ .customize .vrow[for="v6"],
+#v7:not(:checked) ~ .customize .vrow[for="v7"],
+#v8:not(:checked) ~ .customize .vrow[for="v8"],
+#v9:not(:checked) ~ .customize .vrow[for="v9"],
+#v10:not(:checked) ~ .customize .vrow[for="v10"],
+#v11:not(:checked) ~ .customize .vrow[for="v11"],
+#v12:not(:checked) ~ .customize .vrow[for="v12"],
+#v13:not(:checked) ~ .customize .vrow[for="v13"]{color:var(--mute)}
+
+/* ---------- use-case rating chips: High=black, Medium=grey, Low=white ---------- */
+.uc-tag{display:inline-block;font-size:10.8px;font-weight:600;padding:3px 10px;text-align:center;min-width:60px;border:1px solid var(--ink);line-height:1.4}
+.uc-tag.high{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.uc-tag.medhigh{background:#4A4A4A;color:var(--paper);border-color:#4A4A4A;background-image:linear-gradient(to right,#4A4A4A 50%,var(--ink) 50%)}
+.uc-tag.med{background:#BFBFBF;color:var(--ink);border-color:#BFBFBF}
+.uc-tag.low{background:var(--paper);color:var(--ink);border-color:var(--ink)}
+.uc-tag.special{background:var(--paper);color:var(--ink);border-style:dashed;border-color:var(--mute)}
+.uc-legend{display:flex;flex-wrap:wrap;gap:18px;margin:4px 0 8px;font-size:11.5px;color:var(--mute);align-items:center}
+.uc-legend span{display:flex;align-items:center;gap:7px}
+.hero{background:var(--ink);color:var(--paper);padding:78px 54px 70px;max-width:none}
+.hero h1{font-size:clamp(34px,5.4vw,62px);line-height:1.03;letter-spacing:-.035em;font-weight:700;margin:0 0 30px;max-width:20ch}
+.hero h1 em{font-style:normal;color:var(--green-br)}
+.hero .stand{font-size:17px;font-weight:300;max-width:66ch;line-height:1.66;color:#D8D8D8}
+.hero .stand b{font-weight:600;color:var(--paper)}
+.metaline{display:flex;flex-wrap:wrap;gap:0;margin-top:52px;border-top:1px solid #333}
+.metaline div{padding:16px 30px 0 0;min-width:150px}
+.metaline dt{font-size:10.5px;font-weight:300;color:#8A8A8A;margin:0 0 3px}
+.metaline dd{margin:0;font-size:13px;font-weight:500}
+h2{font-size:clamp(25px,3vw,36px);line-height:1.1;letter-spacing:-.028em;font-weight:700;margin:0 0 14px;max-width:28ch}
+h3{font-size:19px;line-height:1.26;letter-spacing:-.017em;font-weight:600;margin:44px 0 12px}
+h4{font-size:14.5px;font-weight:600;margin:28px 0 8px}
+p{margin:0 0 15px;max-width:76ch}
+.lede{font-size:17.5px;font-weight:300;line-height:1.6;max-width:70ch;margin-bottom:30px;color:#2A2A2A}
+.lede b{font-weight:600;color:var(--ink)}
+strong,b{font-weight:600}
+a{color:var(--blue);text-decoration:none;border-bottom:1px solid rgba(67,64,232,.32)}
+a:hover{border-bottom-color:var(--blue)}
+.sec-eyebrow{font-size:11px;font-weight:400;color:var(--mute);margin:0 0 10px;font-variant-numeric:tabular-nums}
+.small{font-size:12.5px;color:var(--mute);font-weight:300;line-height:1.55;max-width:78ch}
+.verdict{border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);padding:22px 0 24px;margin:34px 0}
+.verdict p{font-size:19px;font-weight:600;line-height:1.35;letter-spacing:-.018em;max-width:56ch;margin:0}
+.note{border-left:3px solid var(--blue);padding:14px 0 14px 18px;margin:26px 0;font-size:13.5px;max-width:80ch}
+.note p{margin:0 0 9px}.note p:last-child{margin:0}
+.warn{border-left:3px solid var(--ink);background:var(--wash);padding:16px 18px;margin:26px 0;font-size:13.5px;max-width:80ch}
+.warn p{margin:0 0 9px}.warn p:last-child{margin:0}
+.def{border:1px solid var(--ink);padding:24px 26px;margin:28px 0;max-width:82ch}
+.def p{margin:0;font-size:15.5px;line-height:1.58}
+.def .lab{font-size:11px;color:var(--mute);font-weight:400;margin-bottom:8px;display:block}
+.tbl{width:100%;border-collapse:collapse;margin:22px 0 10px;font-size:12.7px}
+.tbl th{text-align:left;font-weight:600;font-size:11.3px;padding:9px 11px 9px 0;border-bottom:2px solid var(--ink);vertical-align:bottom;line-height:1.3}
+.tbl td{padding:11px 11px 11px 0;border-bottom:1px solid var(--rule);vertical-align:top;line-height:1.5}
+.tbl tr:last-child td{border-bottom:1px solid var(--ink)}
+.tbl td:first-child,.tbl th:first-child{padding-left:0}
+.tbl .num{font-variant-numeric:tabular-nums;white-space:nowrap;text-align:center}
+.tbl tfoot td{font-weight:600;border-top:2px solid var(--ink);border-bottom:none}
+.scroll{overflow-x:auto;margin:22px -4px 10px;padding:0 4px}
+.scroll .tbl{margin-top:0}
+.rate{display:inline-flex;gap:2px;vertical-align:middle}
+.rate i{width:8px;height:14px;background:var(--rule);display:block}
+.rate i.on{background:var(--ink)}
+.rate.hi i.on{background:var(--green)}
+.rate.lo i.on{background:var(--mute)}
+.qwrap{margin:30px 0 10px}
+.qaxis{display:grid;grid-template-columns:1fr 1fr;gap:0;font-size:11px;color:var(--mute);font-weight:400;margin-bottom:7px}
+.qaxis span{padding:0 0 0 2px}
+.qgrid{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--ink)}
+.qcell{padding:22px 22px 20px;cursor:pointer;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);display:block;min-height:170px}
+.qgrid label:nth-child(2n){border-right:none}
+.qgrid label:nth-child(n+3){border-bottom:none}
+.qcell .qn{font-size:10.5px;font-weight:400;color:var(--mute);display:block;margin-bottom:5px}
+.qcell .qt{font-size:17px;font-weight:700;letter-spacing:-.02em;display:block;line-height:1.14;margin-bottom:9px}
+.qcell .qd{font-size:12.4px;line-height:1.5;color:#2F2F2F;display:block}
+.qcell .qm{font-size:11.5px;font-weight:600;display:block;margin-top:11px}
+.qcell:hover{background:var(--wash)}
+#qa:checked ~ .qgrid .ca,#qb:checked ~ .qgrid .cb,#qc:checked ~ .qgrid .cc,#qd:checked ~ .qgrid .cd{background:var(--ink);color:var(--paper)}
+#qa:checked ~ .qgrid .ca .qn,#qb:checked ~ .qgrid .cb .qn,#qc:checked ~ .qgrid .cc .qn,#qd:checked ~ .qgrid .cd .qn,
+#qa:checked ~ .qgrid .ca .qd,#qb:checked ~ .qgrid .cb .qd,#qc:checked ~ .qgrid .cc .qd,#qd:checked ~ .qgrid .cd .qd{color:#C9C9C9}
+.qdetail{display:none;border:1px solid var(--ink);border-top:none;padding:26px 24px}
+#qa:checked ~ .da,#qb:checked ~ .db,#qc:checked ~ .dc,#qd:checked ~ .dd{display:block}
+.qdetail h4{margin:0 0 10px;font-size:15px}
+.qdetail p{font-size:13.4px;max-width:80ch}
+.qdetail ul{margin:10px 0 0;padding-left:17px;font-size:13.2px}
+.qdetail li{margin-bottom:7px;max-width:76ch}
+.qin:focus-visible ~ .qgrid{outline:2px solid var(--blue);outline-offset:2px}
+.hint{font-size:11.5px;color:var(--mute);margin:9px 0 0;font-weight:300}
+.filterbar{display:flex;flex-wrap:wrap;gap:0;margin:26px 0 0;border:1px solid var(--ink);width:max-content;max-width:100%}
+.filterbar label{padding:8px 15px;font-size:11.8px;font-weight:500;cursor:pointer;border-right:1px solid var(--ink)}
+.filterbar label:last-child{border-right:none}
+.filterbar label:hover{background:var(--wash)}
+#fall:checked ~ .filterbar label[for=fall],#fc:checked ~ .filterbar label[for=fc],#fa:checked ~ .filterbar label[for=fa],#fb:checked ~ .filterbar label[for=fb],#fd:checked ~ .filterbar label[for=fd]{background:var(--ink);color:var(--paper)}
+#fc:checked ~ .scroll .stack tbody tr:not(.q-c),#fa:checked ~ .scroll .stack tbody tr:not(.q-a),#fb:checked ~ .scroll .stack tbody tr:not(.q-b),#fd:checked ~ .scroll .stack tbody tr:not(.q-d){display:none}
+.fin:focus-visible ~ .filterbar{outline:2px solid var(--blue);outline-offset:2px}
+.rank{font-weight:700;font-size:15px;font-variant-numeric:tabular-nums}
+.qtag{font-size:10.5px;font-weight:600;border:1px solid var(--ink);padding:1px 5px;white-space:nowrap}
+.qtag.c{background:var(--ink);color:var(--paper)}
+details{border-bottom:1px solid var(--rule);padding:0}
+details:first-of-type{border-top:1px solid var(--ink)}
+details summary{cursor:pointer;padding:14px 26px 14px 0;font-weight:600;font-size:14px;list-style:none;position:relative;line-height:1.4}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:"";position:absolute;right:6px;top:19px;width:11px;height:11px;border-right:2px solid var(--ink);border-bottom:2px solid var(--ink);transform:rotate(45deg);transition:transform .15s ease}
+details[open] summary::after{transform:rotate(-135deg);top:21px}
+details summary:hover{color:var(--blue)}
+details .body{padding:0 0 20px;font-size:13.4px}
+details .body p{max-width:80ch;margin-bottom:11px}
+details .body ul{padding-left:17px;margin:8px 0}
+details .body li{margin-bottom:7px;max-width:78ch}
+.ddecide{font-size:11px;font-weight:600;border:1px solid var(--ink);padding:1px 6px;margin-left:8px;white-space:nowrap;vertical-align:1px}
+.ddecide.build{background:var(--ink);color:var(--paper)}
+.ddecide.partner{background:var(--paper);color:var(--ink)}
+.ddecide.never{background:var(--wash);color:var(--mute);border-color:var(--rule)}
+.bars{margin:26px 0 10px}
+.bar{display:grid;grid-template-columns:210px minmax(0,1fr) 70px;gap:14px;align-items:center;padding:7px 0;border-bottom:1px solid var(--rule)}
+.bar .bl{font-size:12.2px;font-weight:500;line-height:1.3}
+.bar .bt{height:16px;background:var(--wash);position:relative;overflow:hidden}
+.bar .bf{height:100%;background:var(--ink);display:block}
+.bar .bf.g{background:var(--green-br)}
+.bar .bf.b{background:var(--blue)}
+.bar .bv{font-size:12px;font-weight:600;text-align:right;font-variant-numeric:tabular-nums}
+.legend{display:flex;gap:20px;flex-wrap:wrap;margin:14px 0 0;font-size:11.5px;color:var(--mute)}
+.legend span{display:flex;align-items:center;gap:6px}
+.legend i{width:11px;height:11px;display:block;background:var(--ink)}
+.legend i.g{background:var(--green-br)}.legend i.b{background:var(--blue)}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(178px,1fr));border-top:1px solid var(--ink);margin:32px 0 8px}
+.figs div{padding:20px 20px 22px 0;border-bottom:1px solid var(--rule)}
+.figs .v{font-size:clamp(24px,3.3vw,36px);font-weight:700;letter-spacing:-.035em;line-height:1;display:block;margin-bottom:7px;font-variant-numeric:tabular-nums}
+.figs .v.g{color:var(--green)}
+.figs .k{font-size:11.4px;color:var(--mute);line-height:1.42;font-weight:400;display:block;max-width:24ch}
+.tl{margin:28px 0 10px;border-left:1px solid var(--ink);padding-left:0}
+.tl .ev{padding:0 0 26px 24px;position:relative}
+.tl .ev::before{content:"";position:absolute;left:-5px;top:6px;width:9px;height:9px;background:var(--ink)}
+.tl .ev.acc::before{background:var(--green-br);outline:1px solid var(--ink)}
+.tl .ev.loss::before{background:#fff;outline:2px solid var(--ink)}
+.tl .q{font-size:11.5px;font-weight:600;color:var(--mute);margin-bottom:3px}
+.tl .ti{font-size:13.6px;font-weight:600;margin-bottom:4px}
+.tl .td{font-size:12.8px;color:#2F2F2F;max-width:76ch}
+.ask{border-top:1px solid var(--ink);padding:22px 0 20px;display:grid;grid-template-columns:44px 1fr;gap:18px}
+.ask:last-of-type{border-bottom:1px solid var(--ink)}
+.ask .an{font-size:30px;font-weight:700;line-height:.9;letter-spacing:-.04em}
+.ask h4{margin:0 0 7px;font-size:15.5px}
+.ask p{font-size:13.4px;margin:0 0 7px;max-width:76ch}
+.ask .by{font-size:12px;font-weight:600}
+.sev{font-weight:600;font-size:11.5px;white-space:nowrap}
+.sev.h{color:#B00}.sev.m{color:#A25400}.sev.l{color:var(--green)}
+ul.tight{padding-left:17px;margin:12px 0 18px}
+ul.tight li{margin-bottom:9px;max-width:78ch;font-size:14px}
+.rule{border:none;border-top:1px solid var(--rule);margin:40px 0}
+.srcgrp{margin:30px 0 0}
+.srcgrp h4{border-bottom:2px solid var(--ink);padding-bottom:7px;margin-bottom:0}
+footer.cred{border-top:1px solid var(--ink);margin-top:56px;padding-top:18px;font-size:11.5px;color:var(--mute);font-weight:300;max-width:80ch}
+.pill{display:inline-block;font-size:10.5px;font-weight:600;border:1px solid var(--ink);padding:2px 7px;white-space:nowrap;margin:0 5px 5px 0}
+.pill.wip{background:var(--wash);color:var(--mute);border-color:var(--rule)}
+.pill.conf{background:var(--ink);color:var(--paper)}
+.bcgrid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0}
+.bccard{border:1px solid var(--ink);padding:18px 20px}
+.bccard h4{margin-top:0}
+@media print{.rail{display:none}.shell{grid-template-columns:1fr}.panel{display:block !important}.wrap{padding:22px 0}details .body{display:block !important}a{color:var(--ink);border:none}}
+@media (max-width:900px){.shell{grid-template-columns:1fr}.rail{position:static;height:auto;border-right:none;border-bottom:1px solid var(--ink);padding:22px 0 0}.navlist{flex-direction:row;overflow-x:auto;border-top:1px solid var(--rule)}.navlist label{border-bottom:none;border-right:1px solid var(--rule);white-space:nowrap;min-width:max-content}.wrap,.hero{padding-left:22px;padding-right:22px}.qgrid{grid-template-columns:1fr}.qgrid label{border-right:none !important;border-bottom:1px solid var(--ink) !important}.qgrid label:last-child{border-bottom:none !important}.bar{grid-template-columns:1fr;gap:5px}.bar .bv{text-align:left}.figs{grid-template-columns:1fr 1fr}.bcgrid{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none !important}}
+main[contenteditable]{outline:none}
+main[contenteditable]:focus{outline:none}
+main[contenteditable] *:focus{outline:1px dashed var(--blue);outline-offset:1px}
+</style>
+</head>
+<body>
+
+<input class="tabin" type="radio" name="sec" id="t0" checked="">
+<input class="tabin" type="radio" name="sec" id="t1">
+<input class="tabin" type="radio" name="sec" id="t2">
+<input class="tabin" type="radio" name="sec" id="t3">
+<input class="tabin" type="radio" name="sec" id="t4">
+<input class="tabin" type="radio" name="sec" id="t5">
+<input class="tabin" type="radio" name="sec" id="t6">
+<input class="tabin" type="radio" name="sec" id="t7">
+<input class="tabin" type="radio" name="sec" id="t8">
+<input class="tabin" type="radio" name="sec" id="t9">
+<input class="tabin" type="radio" name="sec" id="t10">
+<input class="tabin" type="radio" name="sec" id="t11">
+<input class="tabin" type="radio" name="sec" id="t12">
+<input class="tabin" type="radio" name="sec" id="t13">
+
+<div class="shell">
+  <aside class="rail">
+    <div class="mark">Celonis</div>
+    <div class="mark-sub">Task Mining — Competitive &amp; Market Intelligence<br>INTERNAL WIP · SEPT 2026</div>
+    <input class="vin" type="checkbox" id="v0" checked="">
+    <input class="vin" type="checkbox" id="v1" checked="">
+    <input class="vin" type="checkbox" id="v2" checked="">
+    <input class="vin" type="checkbox" id="v3" checked="">
+    <input class="vin" type="checkbox" id="v4" checked="">
+    <input class="vin" type="checkbox" id="v5" checked="">
+    <input class="vin" type="checkbox" id="v6" checked="">
+    <input class="vin" type="checkbox" id="v7" checked="">
+    <input class="vin" type="checkbox" id="v8" checked="">
+    <input class="vin" type="checkbox" id="v9" checked="">
+    <input class="vin" type="checkbox" id="v10" checked="">
+    <input class="vin" type="checkbox" id="v11" checked="">
+    <input class="vin" type="checkbox" id="v12" checked="">
+    <input class="vin" type="checkbox" id="v13" checked="">
+    <details class="customize" open="">
+      <summary>Show / hide sections</summary>
+      <div class="cbody">
+        <label class="vrow" for="v0"><span class="vbox"></span><span>00 · The thesis</span></label>
+        <label class="vrow" for="v1"><span class="vbox"></span><span>01 · Market &amp; analyst POV</span></label>
+        <label class="vrow" for="v2"><span class="vbox"></span><span>02 · Competitive landscape</span></label>
+        <label class="vrow" for="v3"><span class="vbox"></span><span>03 · Positioning deep dive</span></label>
+        <label class="vrow" for="v4"><span class="vbox"></span><span>04 · Use case comparison</span></label>
+        <label class="vrow" for="v5"><span class="vbox"></span><span>05 · Pricing &amp; commercial</span></label>
+        <label class="vrow" for="v6"><span class="vbox"></span><span>06 · Celonis differentiation</span></label>
+        <label class="vrow" for="v7"><span class="vbox"></span><span>07 · Win-loss &amp; success</span></label>
+        <label class="vrow" for="v8"><span class="vbox"></span><span>08 · Battlecard — Mimica</span></label>
+        <label class="vrow" for="v9"><span class="vbox"></span><span>09 · Battlecard — KYP.ai</span></label>
+        <label class="vrow" for="v10"><span class="vbox"></span><span>10 · Battlecard — Skan.ai</span></label>
+        <label class="vrow" for="v11"><span class="vbox"></span><span>11 · Battlecard — Soroco</span></label>
+        <label class="vrow" for="v12"><span class="vbox"></span><span>12 · Partner ecosystem (Pyze)</span></label>
+        <label class="vrow" for="v13"><span class="vbox"></span><span>13 · Data quality &amp; sources</span></label>
+      </div>
+    </details>
+    <nav class="navlist">
+      <label for="t0"><span class="n">00</span><span>The thesis</span></label>
+      <label for="t1"><span class="n">01</span><span>Market &amp; analyst POV</span></label>
+      <label for="t2"><span class="n">02</span><span>Competitive landscape</span></label>
+      <label for="t3"><span class="n">03</span><span>Positioning deep dive</span></label>
+      <label for="t4"><span class="n">04</span><span>Use case comparison</span></label>
+      <label for="t5"><span class="n">05</span><span>Pricing &amp; commercial</span></label>
+      <label for="t6"><span class="n">06</span><span>Celonis differentiation</span></label>
+      <label for="t7"><span class="n">07</span><span>Win-loss &amp; success</span></label>
+      <label for="t8"><span class="n">08</span><span>Battlecard — Mimica</span></label>
+      <label for="t9"><span class="n">09</span><span>Battlecard — KYP.ai</span></label>
+      <label for="t10"><span class="n">10</span><span>Battlecard — Skan.ai</span></label>
+      <label for="t11"><span class="n">11</span><span>Battlecard — Soroco</span></label>
+      <label for="t12"><span class="n">12</span><span>Partner ecosystem (Pyze)</span></label>
+      <label for="t13"><span class="n">13</span><span>Data quality &amp; sources</span></label>
+    </nav>
+  </aside>
+
+  <main contenteditable="true" spellcheck="false">
+
+  <!-- ============ 00 · THESIS ============ -->
+  <section class="panel p0">
+    <div class="hero">
+      <h1>Task mining is hyperscaling on AI agents — Celonis is scored as a follower on the dimension buyers evaluate.</h1>
+      <p class="stand">Analysts put task mining on a 65–90% growth curve through 2026, driven almost entirely by AI-agent design use cases. Celonis's own deal data shows the company loses roughly two-thirds of contested task-mining evaluations on <b>depth of task-mining feature, not price</b> — let alone with Everest's external view, on where Celonis actually stands against KYP.ai, Mimica, Skan.ai and Soroco.</p>
+      <div class="metaline">
+        <div><dt>Scope</dt><dd>Task Mining vs. KYP.ai / Mimica / Skan.ai / Soroco</dd></div>
+        <div><dt>Prepared for</dt><dd>Celonis Sales &amp; Leadership</dd></div>
+        <div><dt>Market size (2025E)</dt><dd>$580–600M, 65–75% CAGR</dd></div>
+        <div><dt>Lost-deal task-mining gap</dt><dd>9 of 14 losses, FY22–26</dd></div>
+        <div><dt>Classification</dt><dd>Internal Only — Celonis Confidential</dd></div></div></div><div class="wrap">
+
+      <h3>The argument in five steps</h3>
+      <ul class="tight">
+        <li><b>The category is real and it's accelerating.</b> Everest and Gartner both frame 2026 growth as AI-agent-driven, not workforce-productivity-driven — the market is re-platforming around "who feeds AI agents context," not "who watches desktops."</li>
+        <li><b>Celonis is under-positioned, not under-capable.</b> Buyers and even Celonis's own field team default to seeing Celonis as a Process Intelligence vendor first — the deck's own customer-POV section says this directly, and it shows up as a repeated loss pattern.</li>
+        <li><b>Pyze is a strong leverage for wining Task mining deals.</b>&nbsp;Two named competitive displacements — Merck (vs. Mimica) and Unilever (vs. Soroco) — exist today won by Pyze. Pyze+Celonis offeres broader use cases, stronger competitive advantage and trusted market positioning.&nbsp; Pyze can still work on updating CCM messaging and recent Celonis roadmap capabilities and strengths.&nbsp;&nbsp;</li>
+        <li><b>Pricing is not where Celonis is structurally losing.</b> Only 4 of 14 lost deals cite pricing; 9 cite feature depth. Competitive offers attactive and bundled commerical positioning that celonis should work on to offer its customers.&nbsp;</li>
+      </ul>
+
+      <div class="verdict"><p>"In an AI-first landscape, this level of desktop visibility is indispensable. Combining granular task data with broader process mining creates the complete foundation for AI-driven process redesign, agentic recommendations, and end-to-end automation."&nbsp; &nbsp;<span style="font-weight: 400; color: rgb(34, 34, 34); font-family: &quot;Google Sans&quot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 14px;"><span email="b.nominacher@celonis.com" name="Bastian Nominacher" data-hovercard-id="b.nominacher@celonis.com" class="gD" data-hovercard-owner-id="10" style="font-variant-ligatures: no-contextual; color: rgb(31, 31, 31); font-size: 0.875rem; font-weight: 700; display: inline; vertical-align: top; -webkit-font-smoothing: antialiased; line-height: 20px;"><span style="position: relative; vertical-align: top;">- Bastian Nominacher</span></span></span><span style="font-weight: 400; color: rgb(34, 34, 34); font-family: &quot;Google Sans&quot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 14px;"><span style="font-variant-ligatures: no-contextual; color: rgb(95, 99, 104); font-size: 0.75rem; font-weight: inherit;">&nbsp;</span></span></p><table cellpadding="0" class="cf gJ" style="border-collapse: collapse; margin-top: 0px; width: auto; -webkit-font-smoothing: antialiased; font-family: &quot;Google Sans&quot;, Roboto, RobotoDraft, Helvetica, Arial, sans-serif; font-size: 14px; display: block; color: rgb(34, 34, 34);"><tbody style="display: block;"></tbody></table><p><span style="letter-spacing: -0.018em;">&nbsp;<br></span>The fight to win is not "Celonis vs. four task-mining point solutions on features" — it's "Celonis vs. four point solutions on who owns the context layer AI agents will run on."</p></div>
+    </div>
+  </section>
+
+  <!-- ============ 01 · MARKET & ANALYST POV ============ -->
+  <section class="panel p1">
+    <div class="wrap">
+      <p class="sec-eyebrow">01</p>
+      <h2>Task mining is being redefined by AI agents faster than Celonis's positioning and capabilities</h2>
+      <p class="lede">Every analyst house quoted in the source deck frames 2026 growth around agent-design use cases, not the desktop-productivity framing Celonis is still associated with in the market.</p>
+
+      <h3>What task mining is, and how it differs from process intelligence</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:160px"></th><th>Task Mining</th><th>Process Intelligence</th></tr></thead>
+        <tbody>
+          <tr><td><b>Scope</b></td><td>User-level tasks, desktop interactions</td><td>End-to-end business process</td></tr>
+          <tr><td><b>Captures</b></td><td>Clicks, keystrokes, screen activity</td><td>Event logs from enterprise systems</td></tr>
+          <tr><td><b>Outputs</b></td><td>Task maps, user-behavior insights, RPA opportunities</td><td>Process models, bottleneck detection, compliance insights</td></tr>
+          <tr><td><b>Question it answers</b></td><td>"How do users perform tasks?"</td><td>"What processes exist and where do inefficiencies occur?"</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note"><p>Celonis's stated bridge: Object-Centric Process Mining is positioned to connect the two — "task mining captures desktop interactions while process mining captures end-to-end business process," together giving a micro- and macro-level view.&nbsp;</p></div>
+
+      <h3>Market size and growth</h3>
+      <div class="figs">
+        <div><span class="v g">$580–600M</span><span class="k">Task mining software market size, 2025E</span></div>
+        <div><span class="v">65–75%</span><span class="k">Forecast CAGR, driven by digital transformation despite a recessionary mindset</span></div>
+        <div><span class="v">23%</span><span class="k">Share of market from BFSI; remaining 77% non-BFSI</span></div>
+      </div>
+      <p class="small">Year-by-year bars in the source chart (2021 / 2022 / 2023 / 2025E) read as $70–80M → $130–140M → $215–225M → $580–600M in the flattened text extraction, with no explicit year labels attached to each figure — this ordering is <b>[RECONSTRUCTED]</b> from the monotonic growth curve and stated CAGR, not a direct read of the chart. Verify against the source slide (deck p.12) before quoting a specific year's figure externally.</p>
+
+      <h3>Adoption by geography (Everest Group DII State of Market 2024)</h3>
+      <div class="bars">
+        <div class="bar"><span class="bl">North America</span><span class="bt"><span class="bf" style="width:55%"></span></span><span class="bv">55%</span></div>
+        <div class="bar"><span class="bl">Europe</span><span class="bt"><span class="bf" style="width:21%"></span></span><span class="bv">21%</span></div>
+        <div class="bar"><span class="bl">APAC</span><span class="bt"><span class="bf" style="width:12%"></span></span><span class="bv">12%</span></div>
+        <div class="bar"><span class="bl">Other (MEA, LATAM, UK)</span><span class="bt"><span class="bf" style="width:12%"></span></span><span class="bv">12%</span></div>
+      </div>
+      <p class="small">DII (Digital Interaction Intelligence) is Everest's category label for the task-mining-adjacent space. Additional Everest findings, not charted: BFSI leads adoption overall; travel/logistics and CPG/retail show the highest <i>growth</i> rates; F&amp;A and procurement dominate by business process, with ITSM the fastest-growing function; large enterprises hold the majority share and the highest growth.</p>
+
+      <h3>Analyst POV</h3>
+      <details open=""><summary>Gartner</summary><div class="body">
+        <p>Task mining sits under the broader Process Intelligence critical-capability set. In Gartner's <b>Holistic&nbsp; Discovery</b> evaluation — integrating process mining (system logs) and task mining (user actions) for end-to-end visibility, including process comparison and conformance — Celonis scored <b>16% behind the category leader, Pega Systems</b>. <br>Holistic Discovery ranked in the top 4 of 11 capabilities evaluated across AI &amp; Automation (14% weight) and Process Improvement/Optimization (10% weight) use cases. <br>Celonis scored highest of the evaluated set in AI &amp; Automation but lagged in Process Improvement/Optimization — the deck's own read is that Celonis needs to build on holistic discovery to move the competitive score. Gartner separately credits Celonis's PI Graph and Analyse-Design-Operate (ADO) framework as building a digital twin and context layer for AI agents.</p>
+      </div></details>
+      <details open=""><summary>Forrester</summary><div class="body">
+        <p><b>~75% of vendors</b> now bundle process mining and task mining into a single product, shifting the category framing toward "process intelligence" broadly. Forrester also flags a "citizen process expert" trend — self-service process improvement tools for business users — and a shift from descriptive to predictive/prescriptive analytics (digital twins, simulate-before-you-change).</p>
+        <div class="scroll"><table class="tbl">
+          <thead><tr><th style="width:150px">Dimension</th><th>Process mining</th><th>Task mining</th></tr></thead>
+          <tbody>
+            <tr><td><b>Time to value</b></td><td>Weeks to months — pre-built connectors exist but need configuration for uncommon systems</td><td>Hours to weeks, depending on user count, IT systems and desired observation duration</td></tr>
+            <tr><td><b>Time horizon</b></td><td>Usually retrospective; some near-real-time observability</td><td>Usually retrospective; longer runtime covers a longer horizon</td></tr>
+            <tr><td><b>On-prem</b></td><td>Most vendors offer it</td><td>Some vendors offer it</td></tr>
+            <tr><td><b>Technical limitation</b></td><td>Cannot capture systems lacking event logs (e.g. productivity apps) without workarounds</td><td>Now uses object-level sensing to overcome earlier difficulty tracking long-running back-office processes</td></tr>
+            <tr><td><b>Other risk</b></td><td>Increased performance transparency triggers employee/union resistance</td><td>Same risk applies</td></tr>
+          </tbody>
+        </table></div>
+      </div></details>
+      <details><summary>Everest Group</summary><div class="body">
+        <p>Everest frames the category shift as <b>passive observation → active governance</b>: agentic AI now autonomously collects interaction data, enforces continuous compliance, and triggers actions directly in processes; generative AI replaces manual analysis for mapping/editing/benchmarking/simulating; real-time AI monitoring replaces retrospective review; and licensing is moving toward consumption- and hybrid-based models. Everest's evaluation framework spans data collection &amp; prep, AI-powered discovery, process conformance, monitoring &amp; insights, process enhancement, complementary-capability integration (GenAI/agentic), and security/compliance (PII dashboards, SIEM integration, 24×7 support). <span class="pill wip">Market Perception cell: marked "To be updated" in source</span></p>
+      </div></details>
+
+      <h3>Customer POV — Celonis is perceived as a Process Intelligence vendor, and it costs deals</h3>
+      <p>Peer-review coverage is thin across the category, and Celonis is the <b>only vendor rated on all four major platforms</b> tracked (Gartner Process Intelligence, Gartner Task Intelligence, G2, TrustRadius) — a genuine differentiator in buyer research visibility, even though absolute scores are close across vendors.</p>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th>Reviewer site</th><th class="num">Celonis</th><th class="num">KYP.ai</th><th class="num">Mimica</th><th class="num">Skan.ai</th><th class="num">Soroco</th></tr></thead>
+        <tbody>
+          <tr><td>Gartner Process Intelligence</td><td class="num">4.4/5 (685)</td><td class="num">—</td><td class="num">—</td><td class="num">4.6/5 (50)</td><td class="num">5.0/5 (45)</td></tr>
+          <tr><td>Gartner Task Intelligence</td><td class="num">4.7/5 (6)</td><td class="num">—</td><td class="num">4.8/5 (5)</td><td class="num">—</td><td class="num">4.7/5 (9)</td></tr>
+          <tr><td>G2</td><td class="num">4.5/5 (341)</td><td class="num">4.5/5 (4)</td><td class="num">—</td><td class="num">4.5/5 (1)</td><td class="num">—</td></tr>
+          <tr><td>TrustRadius</td><td class="num">9.4/10 (254)</td><td class="num">9.1/10 (2)</td><td class="num">—</td><td class="num">—</td><td class="num">10/10 (9)</td></tr>
+        </tbody>
+      </table></div>
+      <p class="small">Review counts in parentheses. "—" = no rating found on that platform in the source deck, not necessarily zero reviews. Soroco's 5.0/5 and 10/10 marks are each on small samples (45 and 9 reviews) — directionally favorable but not statistically load-bearing next to Celonis's 685 and 254.</p>
+
+      <div class="note"><p><b>Pros cited (peer reviews, category-wide sample):</b> unmatched process visibility and AI insight depth; fast time-to-value blending task mining with productivity analytics; rapid autonomous AI process discovery with no manual mapping; non-intrusive zero-integration setup via computer vision; deep bottleneck visibility and strong enterprise scaling.<br><b>Cons cited:</b> steep learning curve; fewer native enterprise connectors than legacy tools; limited third-party integrations; expensive for smaller teams; lacks self-serve setup and public pricing transparency.</p></div>
+      <p class="small"><b>Read this list carefully before quoting it.</b> The source slide attributes this pros/cons list to "Customer Perception" directly beneath the four-vendor review table without a clean per-vendor split in the text extraction — several entries (e.g. "non-intrusive zero-integration via computer vision") read as Skan's stated capability, not Celonis's. Treat this as a category-level synthesis of what reviewers praise/criticize across the four vendors, not a Celonis-specific pros/cons list, until confirmed against the visual slide.</p>
+
+      <h3>Lost deals, FY2022–2026 (14 total)</h3>
+      <div class="figs">
+        <div><span class="v">9 of 14</span><span class="k">Losses citing a task-mining feature-depth gap (64%)</span></div>
+        <div><span class="v">4 of 14</span><span class="k">Losses citing pricing (29%)</span></div>
+        <div><span class="v">9 of 14</span><span class="k">Losses in FSI + Insurance accounts (64%)</span></div>
+      </div>
+      <p>FY2022–24 (9 deals): clients evaluated basic task-mining features with pricing a high-importance factor; competitors named were Apromore, Kofax, UiPath, Stereologic, Paxraym, and Microsoft Heartcore. Post-2025 (5 deals): Celonis was rejected specifically on <b>depth of task-mining feature</b> against niche specialists — Skan, Soroco, Mimica and Microsoft. The market pattern the deck names directly: clients are moving away from bundled incumbents (Microsoft-type) toward specialist task-mining vendors, and Celonis's sales reps are described as sometimes lacking the product depth to defend against that shift.</p>
+
+      <h3>Partner POV — Pyze</h3>
+      <p>Pyze's read of the three main desktop-capture competitors, stated plainly in the deck: <b>Mimica</b> relies on manual, offshore data-analysis teams to process raw logs; <b>Soroco</b> captures desktop activity but struggles to provide deep business context; <b>Skan</b> has strong vision-capture capability but focuses aggressively on general workforce productivity rather than process context. Pyze's stated differentiators: coverage across the full enterprise application landscape (SAP, Pega, Appian, Guidewire, custom apps); a specific legacy-migration use case (discovering business rules to migrate off Pega or custom payment apps); and flexible on-prem/private-cloud (GCP/AWS) deployment for banking and healthcare InfoSec requirements. See §12 for the named deal outcomes and §07 for the full logo list.</p>
+    </div>
+  </section>
+
+  <!-- ============ 02 · COMPETITIVE LANDSCAPE ============ -->
+  <section class="panel p2">
+    <div class="wrap">
+      <p class="sec-eyebrow">02</p>
+      <h2>The four-vendor fight, and an internal scoring disagreement leadership should resolve before this deck ships externally</h2>
+      <p class="lede">Beyond the four named competitors, the broader market includes automation-platform players (UiPath, Automation Anywhere), process-mining-adjacent entrants (ServiceNow Discovery Bot, EdgeVerve Discover with Infosys) and others — this section focuses on the four the deck battlecards in depth.</p>
+
+      <h3>60-second snapshots</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:110px">Vendor</th><th style="width:180px">Founded / HQ</th><th style="width:190px">Funding</th><th>Positioning one-liner</th></tr></thead>
+        <tbody>
+          <tr><td><b>Mimica</b></td><td>2018 · London, UK · ~272 employees, majority US-based GTM</td><td>Series B 2025 (Paladin Capital), Series A 2021 (Khosla Ventures) — est. $30–35M total, revenue undisclosed</td><td>Task automation specialist; Miner → Mapper → Monitor/Measure → Maker (new); only vendor deployable on macOS today</td></tr>
+          <tr><td><b>KYP.ai</b></td><td>2018 · Berlin · &lt;100 employees</td><td>€17.5M Series A (2023, OTB Ventures / 42CAP / Tola Capital) — est. $10M revenue</td><td>Large-scale workforce &amp; process analytics; aggressive "Agentification" / MCP-compatible context positioning</td></tr>
+          <tr><td><b>Skan.ai</b></td><td>2018 · Menlo Park, CA + Bangalore · ~180 employees</td><td>$63–64M Series C (Aug 2026, Dell Technologies Capital / Cathay Innovation) + $54M Series B — est. $25–50M revenue, 65% YoY ARR growth 2024–25</td><td>Zero-integration computer-vision capture; positions itself as unified process+task mining ("Agentic Business Context Foundation")</td></tr>
+          <tr><td><b>Soroco</b></td><td>2014 · Boston · ~300 employees</td><td>Private, self-funded — est. $44–75M revenue</td><td>"Operational context layer for human-agent workflows" — Everest's own DII category leader per external scoring; Scout / Work Graph / Workflow Twins / Avali</td></tr>
+        </tbody>
+      </table></div>
+      <p class="small">Soroco is the only one of the four that is privately self-funded rather than VC-backed — worth noting in vendor-stability objection handling (§11), where the standard playbook line about "6-year-old, VC-dependent startups" applies more cleanly to Skan and less cleanly to Soroco.</p>
+
+      <h3>Market positioning — how buyers place the four vendors</h3>
+      <div class="qwrap">
+        <input class="qin" type="radio" name="quad" id="qa" checked="">
+        <input class="qin" type="radio" name="quad" id="qb">
+        <input class="qin" type="radio" name="quad" id="qc">
+        <input class="qin" type="radio" name="quad" id="qd">
+        <div class="qaxis"><span>Interaction recording (logs what happened)</span><span>Process intelligence (explains why it happened)</span></div>
+        <div class="qgrid">
+          <label class="qcell ca" for="qa"><span class="qn">Task-level view</span><span class="qt">Skan.ai · Mimica</span><span class="qd">Automate a single discrete desktop task; singular view observes and logs human-computer activity.</span><span class="qm">Point solution</span></label>
+          <label class="qcell cb" for="qb"><span class="qn">Task-level view</span><span class="qt">KYP.ai</span><span class="qd">Interaction recording with growing analytics layer; still fundamentally a task-level singular view.</span><span class="qm">Point solution, expanding</span></label>
+          <label class="qcell cc" for="qc"><span class="qn">Unified process + task view</span><span class="qt">Celonis</span><span class="qd">The only vendor of the five positioned to understand the business meaning behind interactions, not just log them — building the foundation for AI agents rather than automating a single task.</span><span class="qm">Platform</span></label>
+          <label class="qcell cd" for="qd"><span class="qn">Unified process + task view</span><span class="qt">Soroco</span><span class="qd">Closest competitor to Celonis's unified positioning claim — Work Graph aims at cross-workflow context, though the deck does not concede Soroco has achieved parity.</span><span class="qm">Platform-aspiring</span></label>
+        </div>
+        <div class="qdetail da"><h4>Task-level view · Skan.ai &amp; Mimica</h4><p>Both automate a single discrete desktop task through interaction recording. This is the deck's own placement (source slide 35); it does not further differentiate Skan from Mimica within this quadrant.</p></div>
+        <div class="qdetail db"><h4>Task-level view · KYP.ai</h4><p>Placed adjacent to Skan/Mimica on the task-level axis but the deck's text does not specify KYP's exact position relative to the process-intelligence axis — treat as directional.</p></div>
+        <div class="qdetail dc"><h4>Unified process + task view · Celonis</h4><p>The deck's stated differentiation: Celonis is the only vendor claiming both axes — process intelligence (business meaning) and unified process+task data — positioning it to "build the foundation for AI agents" rather than compete purely on task automation.</p></div>
+        <div class="qdetail dd"><h4>Unified process + task view · Soroco</h4><p>Soroco is the nearest rival claim on unified positioning via Work Graph / Workflow Twins. This reading is directional, not a literal slide quote — flagged below.</p></div>
+        <p class="hint">Select a position to read the detail. <b>Reconstruction notice:</b> the source deck contains two 2×2 market-positioning charts (slides 34–35) whose axis labels and vendor dot-placement were only partially recoverable from the flattened text extraction — labels like "Automation Discovery / Automation Platform / AI Transformation Suite / Agentic Execution" appear on slide 34 without a clean quadrant mapping. This quadrant view above is built from the more legible of the two (slide 35) and should be checked against the visual slide before using in a customer-facing deck.</p>
+      </div>
+
+      <h3>Capability scorecard —&nbsp;</h3>
+      <div class="warn">
+        <p><b>To be updated post scoring Lock-in</b></p>
+      </div>
+
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:230px">Dimension</th><th class="num">Celonis</th><th class="num">KYP.ai</th><th class="num">Mimica</th><th class="num">Skan.ai</th><th class="num">Soroco</th></tr></thead>
+        <tbody>
+          <tr><td><b>Table 1</b> — scale 1–4, source slide 36, marked "To be updated"</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td><td class="num">—</td></tr>
+          <tr><td>1. Data capture &amp; prep (multi-env)</td><td class="num">3</td><td class="num">3</td><td class="num">2</td><td class="num">4</td><td class="num">3</td></tr>
+          <tr><td>2. AI-powered discovery (clustering, patterns)</td><td class="num">4</td><td class="num">3</td><td class="num">2</td><td class="num">4</td><td class="num">3</td></tr>
+          <tr><td>3. Conformance</td><td class="num">4</td><td class="num">2</td><td class="num">1</td><td class="num">2</td><td class="num">3</td></tr>
+          <tr><td>4. Process enablement</td><td class="num">4</td><td class="num">1</td><td class="num">2</td><td class="num">1</td><td class="num">2</td></tr>
+          <tr><td>5. Automation &amp; agentic AI</td><td class="num">4</td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num">2</td></tr>
+          <tr><td>6. Other use cases (SOP, workforce)</td><td class="num">4</td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num">3</td></tr>
+          <tr><td>7. Tech integration (RPA, PI)</td><td class="num">4</td><td class="num">3</td><td class="num">1</td><td class="num">2</td><td class="num">3</td></tr>
+          <tr><td>8. Privacy, security &amp; PII masking</td><td class="num">3</td><td class="num">2</td><td class="num">2</td><td class="num">4</td><td class="num">3</td></tr>
+          <tr><td>9. Scalability</td><td class="num">4</td><td class="num">3</td><td class="num">1</td><td class="num">2</td><td class="num">3</td></tr>
+          <tr><td>10. Vendor stability &amp; positioning</td><td class="num">4</td><td class="num">2</td><td class="num">1</td><td class="num">3</td><td class="num">3</td></tr></tbody></table></div>
+    </div>
+  </section>
+
+  <!-- ============ 03 · POSITIONING DEEP DIVE ============ -->
+  <section class="panel p3">
+    <div class="wrap">
+      <p class="sec-eyebrow">03</p>
+      <h2>How the four competitors describe themselves to the market</h2>
+      <p class="lede">This framework deliberately has no Celonis row in the source deck — it is a competitor-only reconnaissance table, reproduced verbatim, useful for anticipating what a prospect will hear from each vendor's own sales team.</p>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:170px">Dimension</th><th>KYP.ai</th><th>Mimica</th><th>Skan.ai</th><th>Soroco</th></tr></thead>
+        <tbody>
+          <tr><td><b>Story to the market</b></td><td>Evidence-based operational intelligence that proves ROI and feeds agent workflows</td><td>See how work really happens, then accelerate automation with structured documentation</td><td>Context Graph that grounds enterprise AI in observed operational reality</td><td>Work Graph as the unified observability layer for human + agent work transformation</td></tr>
+          <tr><td><b>How they communicate</b></td><td>Quantitative, ROI-focused, pragmatic — "prove it with numbers"</td><td>Clean, product-led, outcome-focused — "from discovery to action faster"</td><td>Architectural, AI-forward, enterprise-scale — "grounded in observed reality"</td><td>Thoughtful, HBR-style, transformation-focused — "redesign how work gets done"</td></tr>
+          <tr><td><b>What they claim as unique</b></td><td>On-premise LLM + broadest ecosystem (40+ IdPs, SAP Signavio, MS Copilot Studio)</td><td>Mimica Maker — deployable AI agent code from process maps; FedRAMP-compliant claim</td><td>Neurosymbolic architecture (neural + Context Graph + agentic reasoning); Metaculus acquisition</td><td>Work Graph + Workflow Twins for simultaneous human &amp; AI-agent monitoring</td></tr>
+          <tr><td><b>How they frame the AI-agent play</b></td><td>Provide agents with process context + generate initial agent code</td><td>Process maps + PDDs as structured training inputs; Maker generates deployable agent code</td><td>Observed work patterns → Agentic Operating Procedures via an "O2A" framework</td><td>Work Graph as the context layer; Workflow Twins to monitor &amp; improve deployed agents</td></tr>
+          <tr><td><b>Relation to event-log tools</b></td><td>Partnership with SAP Signavio — combines process mining with DII for end-to-end view</td><td>Fills the "desktop gap" beyond system event logs; complements process mining</td><td>Partners with Mindzie for process-mining integration; claims end-to-end visibility</td><td>Partners with Microsoft for process-mining integration; Work Graph as the unifying layer</td></tr>
+          <tr><td><b>Primary buyer target</b></td><td>COO, Automation CoE, Process Excellence, CHRO</td><td>Automation CoE, Process Excellence, Transformation Leaders</td><td>COO, Process Excellence, Automation CoE, CAIO</td><td>COO, Business Ops, GBS Leaders, Automation CoE, CAIO</td></tr>
+        </tbody>
+      </table></div>
+      <p class="small">Note the pattern across all four: none of them lead with a data-platform or context-layer claim against Snowflake/Databricks-style infrastructure — they compete for the same COO/Automation-CoE buyer Celonis targets, which is exactly why the Context Model reframe (see [[project_ccm_context_model_resolved]]-style argument, §00) has room to work here: none of the four are structurally positioned to contest it.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04 · USE CASE COMPARISON ============ -->
+  <section class="panel p4">
+    <div class="wrap">
+      <p class="sec-eyebrow">04</p>
+      <h2>Use-case comparison — the one framework where Celonis has a column, and it's not flattering everywhere</h2>
+      <p class="lede">Unlike §03, this 13-row table (source slide 40, marked "To be updated") does include Celonis. Read it as the deck's own admission of where Celonis is currently Low relative to specialists — most notably on agent-facing use cases, which is precisely where the category is growing fastest per §01.</p>
+      <div class="uc-legend">
+        <span><i class="uc-tag high" style="min-width:0;padding:3px 8px">&nbsp;</i>High</span>
+        <span><i class="uc-tag medhigh" style="min-width:0;padding:3px 8px">&nbsp;</i>Medium–High</span>
+        <span><i class="uc-tag med" style="min-width:0;padding:3px 8px">&nbsp;</i>Medium</span>
+        <span><i class="uc-tag low" style="min-width:0;padding:3px 8px">&nbsp;</i>Low</span>
+        <span><i class="uc-tag special" style="min-width:0;padding:3px 8px">&nbsp;</i>Special case (not a rated tier)</span>
+      </div>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:260px">Use case</th><th class="num">Celonis</th><th class="num">KYP.ai</th><th class="num">Mimica</th><th class="num">Skan.ai</th><th class="num">Soroco</th></tr></thead>
+        <tbody>
+          <tr><td>Employee training and guidance</td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag high">High</span></td></tr>
+          <tr><td>Application usage and rationalization</td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag med">Medium</span></td></tr>
+          <tr><td>Compliance and risk management</td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td></tr>
+          <tr><td>Simulation and process redesign</td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag high">High</span></td></tr>
+          <tr><td>Engineering intelligence</td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag low">Low</span></td></tr>
+          <tr><td>Process documentation and SOP generation</td><td class="num"><span class="uc-tag special">Via Pyze</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td></tr>
+          <tr><td>Process optimization and transformation</td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td></tr>
+          <tr><td>Automation opportunity identification and prioritization</td><td class="num"><span class="uc-tag medhigh">Med–High</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag high">High</span></td></tr>
+          <tr><td>Workforce productivity and optimization</td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td></tr>
+          <tr><td>Value realization and benefits tracking</td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td></tr>
+          <tr><td>Agentic AI opportunity identification and prioritization</td><td class="num"><span class="uc-tag medhigh">Med–High</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td></tr>
+          <tr><td>Agent development and enablement</td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag high">High</span></td><td class="num"><span class="uc-tag high">High</span></td></tr>
+          <tr><td>Agent monitoring and human-agent optimization</td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag low">Low</span></td><td class="num"><span class="uc-tag med">Medium</span></td><td class="num"><span class="uc-tag med">Medium</span></td></tr>
+        </tbody>
+      </table></div>
+      <p class="small">Color key: <b>black</b> = High, <b>grey</b> = Medium (split black/grey chip = Medium–High), <b>white/outline</b> = Low. "Via Pyze" is a dashed-outline special-case tag — it marks a capability Celonis reaches through its Pyze partnership rather than a native platform rating, so it is deliberately not forced into the High/Medium/Low scale.</p>
+      <div class="note"><p><b>Pattern worth naming to leadership directly:</b> Celonis rates High only on the three most Celonis-native use cases (process optimization, workforce productivity, value realization/benefits tracking) — all traditional Process Intelligence strengths. On the three most agent-native rows at the bottom of the table (agentic-AI opportunity ID, agent development/enablement, agent monitoring), Celonis rates Medium-High/Low/Low while every specialist rates Medium-to-High. This table and the market-growth data in §01 point at the same conclusion from two different angles.</p></div>
+    </div>
+  </section>
+
+  <!-- ============ 05 · PRICING & COMMERCIAL ============ -->
+  <section class="panel p5">
+    <div class="wrap">
+      <p class="sec-eyebrow">05</p>
+      <h2>Pricing and commercial strategy — Celonis is not in this table at all</h2>
+      <p class="lede">The source deck's commercial-strategy benchmark (slide 41) covers KYP.ai, Mimica, Skan.ai and Soroco only. There is no Celonis column to compare against — a genuine, unresolved gap in the internal repository, not a deliberate omission with rationale given.</p>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:180px">Dimension</th><th>KYP.ai</th><th>Mimica</th><th>Skan.ai</th><th>Soroco</th></tr></thead>
+        <tbody>
+          <tr><td><b>Relative deal value size</b></td><td>$</td><td>$$</td><td>$$$$</td><td>$$$</td></tr>
+          <tr><td><b>Avg. annual deal size</b></td><td>$150K–$250K</td><td>$200K–$300K</td><td>$350K–$450K</td><td>$250K–$350K</td></tr>
+          <tr><td><b>Largest deal, 2025</b></td><td>$1M–$2M</td><td>$2.5M–$3.5M</td><td>$3.5M–$4.5M</td><td>$2.5M–$3.5M</td></tr>
+          <tr><td><b>AI pricing strategy</b></td><td>Flexible: token-based, module add-on, or bundled unlimited usage</td><td>Prepaid credits deducted by module (Miner/Mapper/Maker/Measure)</td><td>Included in core subscription — no LLM token charges</td><td>Included in core subscription</td></tr>
+          <tr><td><b>Commercial model mix</b></td><td>User-based 43% · hybrid user/consumption 19% · module-based 18%</td><td>User-based 90% · consumption 10%</td><td>User-based 95% · consumption 5%</td><td>User-based 100%</td></tr>
+          <tr><td><b>Professional services</b></td><td>Onboarding bundled; maintenance, hosting, implementation &amp; training included</td><td>Extra consulting/implementation charged separately</td><td>All services (consulting, implementation, hosting, maintenance, training) included in license</td><td>Base services &amp; hosting included; dedicated resources / extra storage/users charged separately</td></tr>
+        </tbody>
+      </table></div>
+      <div class="note"><p><b>Resolved from the last content brief:</b> Skan's estimated annual price of $150–400K per year (cited in its own battlecard, §10) is directionally consistent with this table's $350–450K average deal size — Skan appears to run larger average deals than its per-seat pricing headline implies, likely reflecting bundled services.</p></div>
+
+      <h3>Mimica's pricing-model reversal — resolved</h3>
+      <div class="warn"><p>In 2024, Mimica piloted a prepaid AI-credit/consumption-based pricing model across its suite. The model triggered client backlash over transparency — customers could not predict or understand how many credits were deducted per action. Mimica <b>reverted to traditional user/recorder-seat licensing</b>, keeping credit pricing only for a small number of hybrid legacy accounts. <b>This directly resolves the pricing-model discrepancy flagged in the prior content brief</b> (Everest's June 2025 PDF description of Mimica's AI-credit model was accurate as of its publication date but describes a model Mimica has since mostly abandoned).</p></div>
+
+      <div class="verdict"><p>Celonis has no benchmarked position in the one pricing table that exists internally for this category. Before the next commercial strategy review, Sales Ops should add a Celonis column using actual deal data — the four-vendor table above is the ready-made template.</p></div>
+    </div>
+  </section>
+
+  <!-- ============ 06 · CELONIS DIFFERENTIATION ============ -->
+  <section class="panel p6">
+    <div class="wrap">
+      <p class="sec-eyebrow">06</p>
+      <h2>Celonis differentiation — real substance on two dimensions, placeholders on the rest</h2>
+      <p class="lede">The source deck's "Celonis Differentiators" slides (42–46) are mostly unwritten. Two dimensions have concrete, usable content; the rest are marked "To be updated" and should not be treated as finished messaging.</p>
+
+      <h3>Task Mining Differentiators — concrete content</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:190px">Differentiator</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td><b>Privacy &amp; Security First</b></td><td>Project-level permissions (capture/not-capture control at the application level — stated as unique in market); role-based access control; Gateway (on-prem staging area for custom scrubbing before cloud transmission, <i>available September '26</i>); AES-256 at rest, HTTPS/TLS 1.2+ in transit, SOC-2 certified, GDPR-ready — enables safely scaling task mining to up to 10,000 users under strict customer privacy standards</td></tr>
+          <tr><td><b>Custom Intelligence Layer</b></td><td>Build custom views tailored to any use case, reusable across projects; integrated with Process Mining to connect manual desktop actions with business outcomes</td></tr>
+          <tr><td><b>AI-driven Task Discovery</b></td><td>Annotation Builder (AI-powered note clustering); Copilot (natural-language insights); LLM clustering using secure, tested LLMs from top vendors to convert events into business activities; turns task mining into CTAs via business apps, action flows, agents and orchestration engines</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>Process Mining Differentiators — concrete content</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:190px">Differentiator</th><th>Why it matters</th></tr></thead>
+        <tbody>
+          <tr><td><b>System-agnostic data ingestion</b></td><td>140+ pre-built extractors, aligned to any source system in the customer's architecture; extracts structured event logs without lengthy IT data preparation</td></tr>
+          <tr><td><b>Process mining maturity</b></td><td>Object-Centric Process Mining (OCPM) visualizes highly interconnected workflows without duplicating event logs; validated in production across 700+ customers</td></tr>
+          <tr><td><b>Scalability &amp; performance</b></td><td>Supports data models up to 30 billion rows; Celonis Data Core operates across 100s of live processes, petabytes of loaded data, trillion queried rows, without degrading true active-processing-time analysis speed</td></tr>
+        </tbody>
+      </table></div>
+      <p class="small">Named specific differentiators mentioned elsewhere in the deck but not expanded into full slides: <b>Zero-copy integration</b> and <b>Delta sharing</b> — both listed as headline items on the "Celonis Differentiators, 1/2" slide (42) with no supporting detail yet drafted.</p>
+
+      <div class="warn"><p><b>Placeholder inventory — do not present these as finished analysis.</b> The following differentiation categories are marked "To be updated" in the source with zero supporting content: <b>Data Capture and Prep</b>, <b>AI-Powered Discovery</b>, <b>Conformance</b>, <b>Process Enablement</b>, <b>Automation &amp; Agentic AI</b> (slide 42–43), and <b>Other Use Cases</b>, <b>Complementary Tech</b>, <b>Privacy &amp; Security</b> (duplicate framing), <b>Scalability</b> (duplicate framing), <b>Stability &amp; Positioning</b> (slide 44 second pass). Several of these dimensions already have strong material elsewhere in this deck (e.g. the Task Mining Differentiators table above covers privacy/security more thoroughly than the placeholder slide it duplicates) — the fix here is a content-consolidation pass, not fresh research.</p></div>
+    </div>
+  </section>
+
+  <!-- ============ 07 · WIN-LOSS & SUCCESS STORIES ============ -->
+  <section class="panel p7">
+    <div class="wrap">
+      <p class="sec-eyebrow">07</p>
+      <h2>Named wins, named losses — the sharpest, most sales-ready material in the deck</h2>
+      <p class="lede">This is primary, named-account evidence not present in any external analyst source reviewed for this category — treat it as Celonis's strongest proof-point inventory, and keep it internal per the source's own confidentiality marking.</p>
+
+      <h3>Account-level win/loss timeline</h3>
+      <div class="tl">
+        <div class="ev loss"><div class="q">RENEWAL — AT RISK</div><div class="ti">Western Digital</div><div class="td">Client has pushed back on commercial terms and repeatedly cites cheaper alternative task-mining solutions. Field team is not actively pitching task mining into other accounts, and the "Workforce Productivity" naming is described internally as confusing to customers.</div></div>
+        <div class="ev acc"><div class="q">NOTABLE WIN</div><div class="ti">Majid Al Futtaim</div><div class="td">Customer appreciated the unified Context Model vision, leadership presence, and product-roadmap showcase early in the cycle. Client had perceived Celonis as a PI-only player and was planning to use UiPath for task mining before this reframe. Lesson: expand deals are easier to win with a proof-of-value plus a free trial license for customers already on the Celonis platform. Workforce Productivity has strong stated demand across UAE shared-services organizations.</div></div>
+        <div class="ev acc"><div class="q">SUCCESS STORY</div><div class="ti">Nykredit Realkredit A/S</div><div class="td">Danish financial institution, $5.2B revenue. Needed objective ROI validation for a new AI solution for bank advisors — perceived value had rested on anecdotal evidence. Celonis Task Mining measured actual time spent and identified extra manual work (corrections, deletions), revealing that task mining accounted for <b>50% of the total value case</b> of the AI implementation. Now scaling to 100+ advisors. Quote: "Celonis Task Mining enabled Nykredit to validate the ROI of a strategic technology investment by moving from assumed benefits to measured results." — Matthias Dondrup, Function Manager, Process Performance.</div></div>
+        <div class="ev acc"><div class="q">LAND WIN vs. SKAN.AI</div><div class="ti">IHG (UK &amp; Ireland region)</div><div class="td">Customer needed full visibility into on- and off-system workflows in a manual Contract-to-Cash process. Celonis delivered a full proof-of-value in two weeks connecting Process Intelligence + Task Mining. Win driver: capturing off-system desktop activity to close visibility gaps, and generating a blueprint used to configure Microsoft Copilot agents that automate manual tasks.</div></div>
+        <div class="ev"><div class="q">ACTIVE / OBJECTION-HANDLING</div><div class="ti">Citi Bank</div><div class="td">Core differentiator used: process-mining context tells you <i>where</i> to point task-mining tools — solving the "noisy data" problem competitors don't address. Objections encountered: data noise, privacy, and forward-looking (roadmap) focus.</div></div>
+        <div class="ev"><div class="q">DEEPLY EMBEDDED</div><div class="ti">Allstate</div><div class="td">Strong existing product understanding, partly because Allstate's Center of Excellence is staffed by roughly six former Celonis employees. No competitors were named as active in this account — deeply integrated with the current platform.</div></div>
+        <div class="ev loss"><div class="q">LOST — STANDALONE TASK MINING</div><div class="ti">USAA</div><div class="td">Parallel evaluation of desktop user-behavior/task-mining tools. Celonis + Pyze pitched deep application insight (Guidewire, Pega) combined with task mining, but the deal never reached the proof-of-value stage. USAA selected <b>Skan</b> as its standard tactical desktop task-mining tool for the frontline distribution business. Root cause cited: execution delay — the intended pilot kept slipping on timeline, not a capability gap. Cross-reference: Pyze's own read of this same loss (§12) attributes it to sales-strategy and timing failure, not a technical gap.</div></div>
+      </div>
+
+      <h3>Additional success stories (unnamed accounts, named metrics)</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:220px">Account</th><th>Outcome</th></tr></thead>
+        <tbody>
+          <tr><td><b>Multi-billion dollar telecommunications company</b></td><td>Task mining applied to overpayment-claims handling across a 2,000+ user department; compared multiple claims-management systems for accuracy, avoiding claimant overpayment. On track for <b>€2M+ saved annually</b>.</td></tr>
+          <tr><td><b>MOL</b> (Energy, Utilities, Oil &amp; Gas — $26BN revenue)</td><td>Task Mining Workforce Productivity 2.0 deployed across global and B2B back offices for Order-to-Cash. 80+ task-mining users; identified 3,800+ unique applications and 5,500+ screen types (productive application usage now above 90%); found employees spent double the time in MS Outlook vs. core SAP O2C; surfaced 40,000+ distinct Excel files, prompting targeted automation/training. Quotes: "Beliefs don't read statistics — they just remember. Celonis helps us overcome this confirmation bias" (Levente Puskás, Head of Group Downstream Customer Care); "Celonis supports our core mission of transparency, efficiency, and digitalization" (Edina Szilágyi, Group O2C Process Development Lead).</td></tr>
+          <tr><td><b>Multi-billion dollar Oil &amp; Gas company</b></td><td>Task mining enabled large cost savings across 11 processes in a shared service center; <b>100% improvement in first-time-right processing rate</b>.</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>Pyze-attributed competitive displacements</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:130px">Account</th><th style="width:110px">Displaced</th><th>Win driver</th></tr></thead>
+        <tbody>
+          <tr><td><b>Merck</b></td><td>Mimica</td><td>Joint Pyze + Celonis solution provided richer, more detailed data, letting Merck measure productivity differences among employees using AI copilots.</td></tr>
+          <tr><td><b>Unilever</b></td><td>Soroco</td><td>Displaced Soroco across 67 complex SOPs — Pyze provided true business context down to the field level, which Soroco failed to deliver.</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <!-- ============ 08 · BATTLECARD: MIMICA ============ -->
+  <section class="panel p8">
+    <div class="wrap">
+      <p class="sec-eyebrow">08 · BATTLECARD</p>
+      <h2>Mimica</h2>
+      <p class="lede">Founded 2018 by Tuhin Chakraborty (CEO) and Raphael Holca-Lamarre (CTO, PhD Neuroscience/ML). London HQ, ~272 employees, majority US-based GTM. Series B 2025 (Paladin Capital Group); Series A 2021 (Khosla Ventures); est. $30–35M total funding, revenue undisclosed.</p>
+
+      <h3>Platform: Miner → Mapper → Monitor/Measure → Maker</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:150px">Layer</th><th>What it does</th></tr></thead>
+        <tbody>
+          <tr><td><b>Miner</b> (capture)</td><td>Captures user interactions via DOM/COM-based and image-based recording — clicks, keystrokes, screen content, metadata. Runs in background with privacy controls on Windows <b>and macOS</b> — Mimica is the only one of the four competitors that can run on macOS today.</td></tr>
+          <tr><td><b>Mapper</b></td><td>AI-powered process discovery: aggregates recordings across employees, applies ML to generate process maps, identify variants, build hierarchical flowgraphs and reference models. Generates process maps in one week with zero user intervention.</td></tr>
+          <tr><td><b>Monitor / Measure</b> *</td><td>Process-performance tracking against reference models; detects deviations; predicts KPI breaches; derives productivity benchmarks; enables real-time standardization. "Measure" is the enhanced 2025 iteration, introducing dashboards.</td></tr>
+          <tr><td><b>Maker</b> *</td><td><i>New feature.</i> AI-powered automation builder — turns process maps into operational software bots; generates, debugs and tests deployable AI-agent code using observed process variants, decision logic and business rules.</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>Deal qualification — green lights vs. red flags</h3>
+      <div class="bcgrid">
+        <div class="bccard"><h4>Green light for Celonis</h4><ul class="tight">
+          <li>Needs a platform to build automations — Celonis identifies RPA/agent opportunities and generates executable automation scripts natively.</li>
+          <li>Needs speed and enterprise scale — Celonis zero-copy, patented PQL, 2,500+ users/project, 30,000+/instance, 30B+ events/day.</li>
+          <li>Needs end-to-end process ROI (discovery through execution) in a single platform.</li>
+          <li>Needs complex multi-system integration — 100+ native connectors vs. Mimica's desktop-only capture.</li>
+        </ul></div>
+        <div class="bccard"><h4>Red flag / proceed cautiously</h4><ul class="tight">
+          <li>Buyer explicitly needs macOS deployment today — Mimica is the only vendor of the four that supports it now (Celonis macOS support is roadmapped, no committed GA date stated).</li>
+          <li>Fast pilot on a constrained budget — Mimica's low-setup, low-cost POC (well under Celonis's typical enterprise commitment) is genuinely attractive for "test the waters" pilots.</li>
+        </ul></div>
+      </div>
+
+      <h3>Mimica's blind spots vs. Celonis's advantage</h3>
+      <details open=""><summary>The architectural data disconnect</summary><div class="body"><p><b>Mimica's limitation:</b> confined to the desktop — relies on a recorder observing UI clicks/keystrokes, no native backend event-log extraction at the database level. <b>Celonis:</b> Process Intelligence Graph ingests actual database transactions via 100+ native connectors, combining backend truth with desktop task data. <b>Why it matters:</b> seeing a click doesn't show the systemic bottleneck in the database — Celonis shows the financial impact of that click across ERPs and supply chain.</p></div></details>
+      <details><summary>The organizational context void</summary><div class="body"><p>Mimica's task maps show how one user completes a task, not organizational relationships, role-level handoffs, or how one invoice relates to ten purchase orders. Celonis's OCPM reconstructs the end-to-end structural lifecycle across multi-dimensional workflows into a centralized repository.</p></div></details>
+      <details><summary>The temporal (ROI) gap</summary><div class="body"><p>Mimica operates in fixed "recording windows" (e.g. two weeks) — the map stops updating once the project ends, with no continuous historical comparison. Celonis runs continuous month-over-month comparisons to prove automation ROI over time.</p></div></details>
+      <details><summary>The structural simulation ceiling</summary><div class="body"><p>Mimica can estimate the ROI of automating a specific task but can't apply structural optimization levers (eliminating/consolidating entire steps) across the system landscape. Celonis tests the impact of removing or redesigning structural steps before executing them globally.</p></div></details>
+      <details><summary>The natural-language gap, the enforcement failure, the "walled garden" execution trap, the agentic brain gap</summary><div class="body"><p>Mimica lacks NLP-based compliance-rule authoring (Celonis Process Copilot); sends passive alerts rather than actively blocking non-compliant actions (Celonis Action Flows); generates agent code via Maker but has no native execution/runtime and requires an external platform to run bots (Celonis Action Flows execute natively); and trains bot code only on observed UI clicks/screenshots rather than the full PI Graph of business rules and constraints.</p></div></details>
+
+      <h3>Objection handling</h3>
+      <details><summary>"Mimica deploys on any OS; Celonis is Windows-only"</summary><div class="body"><p><b>Answer:</b> Celonis isn't building a desktop recorder, it's building an enterprise-wide Process Intelligence platform — macOS support is on the roadmap, but a Mac-hosted recorder still only sees isolated clicks. <b>Advantage:</b> System-agnostic enterprise visibility via OCPM + 100+ connectors reaching data lakes, ERPs and CRMs directly.</p></div></details>
+      <details><summary>"Celonis misses granular task detail (keystrokes, selectors) needed for automation"</summary><div class="body"><p><b>Answer:</b> Mimica relies heavily on screenshots; Celonis captures structural metadata via UI Automation APIs and enriches it with process-mining data, sharing the needed context without massive visual payloads. <b>Advantage:</b> a unified, end-to-end Process Data Model instead of isolated desktop recordings.</p></div></details>
+      <details><summary>"Mimica delivers time-to-value in weeks; Celonis takes months"</summary><div class="body"><p><b>Answer:</b> don't defend deployment speed — attack the quality of the return. Mimica's plug-and-play nature comes from operating in a silo on a single desktop; Celonis onboards to scalable, multi-million-dollar process value. <b>Proof:</b> $10B+ in realized customer value.</p></div></details>
+
+      <h3>Top silver bullets</h3>
+      <ul class="tight">
+        <li><b>Expose the architecture gap.</b> Force the conversation to the PI Graph: "When a process fails, do you need to see the mouse movement, or know which business rule triggered the exception?"</li>
+        <li><b>Process modeling + what-if simulation = future-state readiness.</b> Mimica is as-is discovery only; Celonis is as-is + to-be modeling + simulation + impact prediction. CFO test: "If we reduce invoice approval cycle by 2 days, what's the cash-flow impact?" — Celonis answers, Mimica cannot.</li>
+        <li><b>Orchestration = real automation, not just discovery.</b> Discover → model → orchestrate → automate, all in one platform.</li>
+        <li><b>Enterprise trust &amp; proven scale.</b> Gartner Magic Quadrant #1 Leader since 2019; 600+ Global 500 customers; $10B cumulative customer value.</li>
+        <li><b>The no-migration path.</b> Starting with Celonis avoids the ~$500K hidden migration tax the deck estimates for a later Mimica-to-Celonis switch.</li>
+        <li><b>Compliance-ready today, not on a roadmap.</b> HIPAA, FedRAMP, SOX certified now; Mimica's compliance roadmap is dated 2027–2028 in the source.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 09 · BATTLECARD: KYP.AI ============ -->
+  <section class="panel p9">
+    <div class="wrap">
+      <p class="sec-eyebrow">09 · BATTLECARD</p>
+      <h2>KYP.ai</h2>
+      <p class="lede">Founded 2018 by Dr. Adam Bujak (CEO), Frank Scheuble (COO) and Miroslaw Bartecki (co-founder). Berlin HQ, &lt;100 global employees, diversified geographic client base (APAC, North America, UK, Continental Europe, MEA) but limited global office presence. €17.5M Series A (2023, OTB Ventures, 42CAP, Tola Capital) funded US expansion; est. $10M revenue; may be seeking a fresh funding round.</p>
+
+      <h3>Platform: Capture → Intelligence → Execution</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:150px">Layer</th><th>What it does</th></tr></thead>
+        <tbody>
+          <tr><td><b>Capture</b></td><td>Proprietary NeuroOCR combined with LLM-based contextual extraction across desktop, web, mainframe, Citrix, RDP and virtual environments.</td></tr>
+          <tr><td><b>Intelligence — KYPatterns</b></td><td>Applies automation and AI-agent patterns to captured activity, scoring/ranking opportunities for RPA, IDP, GenAI and AI agents by ROI, effort and risk.</td></tr>
+          <tr><td><b>Concierge</b> — key feature</td><td>GenAI assistant to query process data in plain language, build reference models, configure compliance rules, and run AI-based what-if simulations.</td></tr>
+          <tr><td><b>Productivity 360 &amp; Tech Pulse</b></td><td>Correlates CPU, memory and network utilization with application processes and user activity.</td></tr>
+          <tr><td><b>Agentification</b> — key feature</td><td>Provides structured, MCP-compatible business context and detailed action data directly to third-party AI agent platforms.</td></tr>
+          <tr><td><b>Execution</b></td><td>Automatically generates platform-agnostic, production-ready automation artifacts — UiPath XAML, n8n JSON, Camunda BPMN, and Python — directly from observed work patterns.</td></tr>
+        </tbody>
+      </table></div>
+      <p class="small">Strategic partnerships: SAP (Signavio process-mining + KYP desktop data, jointly positioned); iGrafx (AI-based simulation and financial/operational impact assessment); MCP-based context feeds into Microsoft Copilot Studio, IBM watsonx, SAP Joule, UiPath, n8n and Blue Prism WorkHQ; GSI network via Capgemini, TCS, Atos, EY and Deloitte; ITSM (ServiceNow, BMC Remedy, Jira), data/analytics (Snowflake, Databricks) and cloud (AWS, Azure) integrations.</p>
+
+      <h3>KYP's blind spots vs. Celonis's advantage</h3>
+      <details open=""><summary>The architectural data disconnect &amp; structural context void</summary><div class="body"><p>KYP intentionally ignores backend event logs, relying entirely on desktop/VM observation — it partners with Signavio for process visibility rather than owning it. Without backend ingestion, KYP cannot natively reconstruct multi-dimensional business-object lifecycles. Celonis ingests actual database transactions natively via 100+ connectors and uses OCPM to reconstruct end-to-end structural lifecycles in one platform.</p></div></details>
+      <details><summary>The execution engine dependency</summary><div class="body"><p>KYP generates code for bots/agents but lacks a native orchestration engine to run automations — customers still integrate and maintain UiPath, n8n or Camunda separately. Celonis's Action Flows execute natively without a third-party runtime.</p></div></details>
+      <details><summary>The structural simulation ceiling &amp; the "passive alarm" conformance gap</summary><div class="body"><p>KYP focuses on task-level automation ROI without deep system-wide structural simulation, and detects deviations without the native orchestration to intervene in an ERP in real time. Celonis tests structural-step elimination before deployment and actively blocks non-compliant transactions via Action Flows.</p></div></details>
+      <details><summary>The predictive-prevention gap, domain-benchmark void, compliance &amp; scale ceiling</summary><div class="body"><p>KYP is highly focused on current-state observation with limited predictive ML for SLA/KPI breach forecasting; offers general productivity intelligence without built-in domain-specific benchmarks (AP, AR, Procurement, Order Management); and lacks FedRAMP authorization, blocking US Federal/Defense use, plus a dedicated petabyte-scale PII monitoring dashboard. Celonis forecasts breaches proactively, offers purpose-built domain benchmarks, and is fully HIPAA/FedRAMP compliant with 24/7 global support.</p></div></details>
+
+      <h3>Deal qualification &amp; objection handling</h3>
+      <p class="small">The source deck's KYP.ai deal-qualification and objection-handling slides are explicitly marked <span class="pill wip">WIP</span> and, on close inspection, largely duplicate the Mimica battlecard's green-light/red-flag and objection content verbatim (same "Mimica can be deployed on any platform" framing appears under the KYP.ai battlecard header). Treat the KYP-specific version of these two sections as <b>not yet authored</b> — use the Mimica section (§08) as a structural template, but do not repeat its content under KYP's name in a customer-facing setting until KYP-specific language is drafted.</p>
+      <div class="warn"><p><b>Enterprise trust proof points that are Skan-specific, appearing under the KYP.ai heading in source:</b> "Skan: 6 years old, 180 employees, $130M funding, unproven at enterprise scale lacking HIPAA and FedRAMP" and "Skan caps at 350 users" — these statistics describe Skan.ai, not KYP.ai, and are almost certainly a copy-paste carryover in the WIP deck. Do not cite KYP.ai's user cap or funding using these Skan-specific figures; KYP's actual funding and headcount are given separately above (€17.5M Series A, &lt;100 employees).</p></div>
+
+      <h3>Top silver bullets (generic task-mining proof points, per source)</h3>
+      <ul class="tight">
+        <li><b>Expose the architecture gap</b> — same PI Graph framing as the Mimica battlecard: "When a process fails, do you need to see the mouse movement, or know which business rule triggered the exception?"</li>
+        <li><b>Process modeling + what-if simulation = future-state readiness</b> — as-is + to-be + simulation + impact prediction, versus as-is discovery only.</li>
+        <li><b>Orchestration = real automation</b> — discover → model → orchestrate → automate in one platform, versus code generation requiring a separate execution tool.</li>
+        <li><b>Enterprise trust &amp; proven scale</b> — Gartner MQ #1 Leader since 2019, 600+ Global 500 customers, $10B cumulative value, unified governance at 30,000-user scale.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 10 · BATTLECARD: SKAN.AI ============ -->
+  <section class="panel p10">
+    <div class="wrap">
+      <p class="sec-eyebrow">10 · BATTLECARD</p>
+      <h2>Skan.ai</h2>
+      <p class="lede">Founded 2018 by Avinash Misra (CEO) and Manish Garg (CPO/COO). Menlo Park, CA HQ with a Bangalore, India office; ~180 employees globally. Est. revenue $25–50M; raised $63–64M Series C (Aug 2026, Dell Technologies Capital, Cathay Innovation) plus $54M Series B; 65% YoY ARR growth, 2024–2025. Solutions: Enterprise AI adoption, operational excellence, automation discovery, shared services, workforce productivity, risk &amp; compliance, contact centers, application-portfolio rationalization.</p>
+
+      <h3>Platform: Blueprint → Intelligence → Agents</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:150px">Layer</th><th>What it does</th></tr></thead>
+        <tbody>
+          <tr><td><b>Blueprint</b></td><td>Scans the organization to pinpoint where inefficiency is costing money and where AI can deliver the greatest value — a surface-level overview identifying top areas for deeper task-intelligence work.</td></tr>
+          <tr><td><b>Intelligence</b></td><td>Observes how people perform work in a verified process context — workflows, variations, bottlenecks and opportunities. This is Skan's task-mining collection-and-conversion layer. Also recently added: an AI Analyst comparable to Celonis's Copilot, and "Engineering Intelligence" for developer productivity.</td></tr>
+          <tr><td><b>Agents</b></td><td>Uses context to automate repetitive work and navigate operational complexity. Assessed as medium-tier in execution maturity — needs improvement in context-sharing and requires significant manual effort to build agents; creates vendor lock-in, since Blueprint output can't be taken out to build agents outside the Skan platform.</td></tr>
+        </tbody>
+      </table></div>
+      <p class="small">Strategic moves: Metaculus acquisition (2025) to expand AI-agent-building capability — described in the source as a small team with limited capabilities, adding lock-in risk without agent orchestration or cross-process context. Persistent Systems partnership (2026) for co-building AI agents, targeting BFSI. iGrafx partnership for Digital Twin of an Organization (DTO). Consulting/implementation partners: McKinsey, ZS, EY, NTT DATA, Wipro, BlackBox, RELX, Brillio.</p>
+
+      <h3>Deal qualification — green lights vs. red flags</h3>
+      <div class="bcgrid">
+        <div class="bccard"><h4>Green light for Celonis</h4><ul class="tight">
+          <li>Needs speed and enterprise scalability — Celonis handles 2,500+ users/project, 30,000+/instance, 30B+ events/day; Skan caps at ~350 users, requiring project fragmentation to scale.</li>
+          <li>Needs end-to-end process ROI (discovery through execution) — Skan is discovery-only and requires external RPA/orchestration partners.</li>
+          <li>Needs complex multi-system integration — Skan has ~20 connectors and cannot link systems across dependencies; Celonis has 100+ native connectors and traces root cause across unrelated systems via the PI Graph.</li>
+          <li>Vendor stability &amp; enterprise trust — Skan is described in the source as "6 years old, 180 employees, $130M funding, unproven at enterprise scale" and lacking HIPAA/FedRAMP.</li>
+        </ul></div>
+        <div class="bccard"><h4>Red flag / proceed cautiously</h4><ul class="tight">
+          <li>Buyer needs genuinely rapid deployment with zero backend IT integration — Skan's claimed weeks-to-value, no-integration pitch is real and resonates with time-pressured pilots.</li>
+          <li>Buyer specifically needs Citrix-only/mainframe-only passive observation with no backend access — Skan is the only option here; Celonis currently lacks this specific offering.</li>
+          <li>Cost-sensitive buyer — Skan avoids data engineering and heavy implementation cost by observing UI-level work only (estimated price: $150–400K/year).</li>
+        </ul></div>
+      </div>
+
+      <h3>Skan's blind spots vs. Celonis's advantage</h3>
+      <details open=""><summary>The architectural data blind spot &amp; structural context void</summary><div class="body"><p>Skan relies on computer vision to observe UI clicks — no deep native backend event-log extraction at the database level, and it maps linear human workflows without reconstructing multi-dimensional business-object lifecycles (e.g. one invoice to ten purchase orders). Celonis's PI Graph + OCPM ingest backend transactions directly and reconstruct end-to-end structural lifecycles.</p></div></details>
+      <details><summary>The structural simulation ceiling &amp; the agentic AI "brain" gap</summary><div class="body"><p>Skan has a simulation engine but users can't test structural optimization levers like eliminating or consolidating process steps. Its GenAI-based task-variation grouping is roadmap-stage, and AI trained only on UI clicks mimics human habits rather than being grounded in business rules. Celonis feeds agents the full PI Graph — a digital twin of business rules and financial guardrails.</p></div></details>
+      <details><summary>The compliance &amp; scale risk, the "walled garden" execution trap, the "passive alarm" conformance gap</summary><div class="body"><p>Skan currently lacks HIPAA and FedRAMP compliance (on roadmap) and lacks standard 24/7 support or an online user community. Its agent-building capability is rudimentary, difficult to scale, and creates rigid vendor lock-in — blueprints can't be exported outside Skan's ecosystem. It alerts on violations rather than autonomously executing corrective workflows. Celonis is fully compliant today, provides an open intelligence layer that feeds external AI platforms without lock-in, and actively blocks non-compliant actions via Action Flows.</p></div></details>
+      <details><summary>The insight-to-action chasm &amp; the "static discovery" trap</summary><div class="body"><p>Skan cannot natively generate production-ready RPA workflows or support GenAI workflow creation, and does not allow users to edit or modify discovered process steps. Celonis bridges insight to execution natively and provides an interactive, editable modeling environment.</p></div></details>
+
+      <h3>Objection handling</h3>
+      <details><summary>"Celonis lacks computer vision and is blind to unlogged work"</summary><div class="body"><p><b>Answer:</b> Celonis Task Mining captures the same desktop activity, then fuses it with backend event logs in the PI Graph, so every click ties to a business rule, a KPI and a downstream outcome — Skan sees the worker without the process context.</p></div></details>
+      <details><summary>"Celonis needs complex, time-consuming IT integration; Skan doesn't"</summary><div class="body"><p><b>Answer:</b> zero-integration means zero-action — without backend hooks there's no way to orchestrate or automate real outcomes, and Skan's insights break the moment a UI changes. Celonis now offers Zero-Copy partnerships (AWS Bedrock, Databricks, Microsoft) matching deployment speed without the fragility, plus 100+ pre-built connectors via OCPM.</p></div></details>
+      <details><summary>"Skan's edge-based masking is more private than Celonis's centralized structure"</summary><div class="body"><p><b>Answer:</b> edge masking is a feature, not proof that no data leaves the device — Skan's SaaS data still flows to Skan's cloud for clustering/LLM processing. Celonis offers on-prem deployment, FedRAMP/HIPAA/SOC2/ISO27001 certification, role-based access control and customer-controlled encryption — genuinely zero external data transmission when deployed on-prem.</p></div></details>
+
+      <h3>Top silver bullets</h3>
+      <ul class="tight">
+        <li><b>Kill the "zero-integration = fast" myth.</b> Reframe Skan's fastest pitch as its biggest weakness — no systems-of-record connection means no reliable orchestration or automation.</li>
+        <li><b>Reframe time-to-value.</b> Don't defend deployment complexity — attack the quality of the return: Celonis customers average $2–10M in realized savings within 12 months.</li>
+        <li><b>Scalability reality check.</b> Skan caps at ~350 users/project; Celonis supports 2,500+/project and 30,000+/instance, proven at 30B+ rows for Tier-1 banks.</li>
+        <li>Named proof point: an AstraZeneca "Task Discovery" dashboard built on ~3M rows using LLM-based clustering identified 10 primary business tasks and 53 subtasks.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 11 · BATTLECARD: SOROCO ============ -->
+  <section class="panel p11">
+    <div class="wrap">
+      <p class="sec-eyebrow">11 · BATTLECARD</p>
+      <h2>Soroco</h2>
+      <p class="lede">Founded 2014 by Rohan Narayana Murty (Founder &amp; CTO), Arjun Narayan and Dr. George Nychis; CEO is Samson David. Boston HQ with global offices, ~300 employees. <b>Private, self-funded</b> — no VC round disclosed, unlike the other three competitors. Est. revenue $44–75M. Positioned as the "operational context layer for human-agent workflows"; Everest Group classifies this category as Digital Interaction Intelligence (DII) — and Soroco co-authored the Everest DII category playbook itself.</p>
+      <div class="warn"><p><b>Cross-reference to prior Celonis market-intelligence work:</b> per earlier analysis of the Everest DII exhibit (see memory: Everest DII findings), Celonis leads none of the 9 dimensions outright and ties for 2nd on 3 — with Soroco scoring strongest overall. This internal Soroco battlecard's own claim that Soroco "focuses on desktop capture but struggles to provide deep business context" (Pyze's read, §12) sits in tension with Soroco's stronger external analyst standing — both can be true (product substance vs. analyst-relations investment), but sales teams should not assume Everest's ranking will go unmentioned by a well-prepared Soroco competitor.</p></div>
+
+      <h3>Platform: Plan → Build → Run</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:150px">Layer</th><th>What it does</th></tr></thead>
+        <tbody>
+          <tr><td><b>Plan — The Work Graph</b></td><td>Scout + TribeScope capture digital interactions across web, desktop and legacy systems via an Edge AI model, building a "work graph" of friction, effort concentration and business-outcome linkage — uncovering hidden process steps across human and agent execution.</td></tr>
+          <tr><td><b>Build — Workflow Twins</b></td><td>Continuously monitors execution, auto-diagnoses root causes, and runs AI-based what-if simulations across both human and agentic workflows. Automation prioritization ranks tasks for RPA/IDP/AI agents by ease, complexity and projected savings.</td></tr>
+          <tr><td><b>Run — Avali</b></td><td>Recently launched agentic conversational interface; diagnoses and redesigns human-agent workflows against business objectives. "Reason with Scout" lets users track/query KPIs (automation rate, cost per invoice) in natural language. Asset generation uses GenAI to create SOPs, PDDs and training datasets; direct code export to Python or UiPath/Blue Prism formats.</td></tr>
+        </tbody>
+      </table></div>
+      <p class="small">Partnerships: Microsoft (Scout + process-mining integration); Whatfix (near-real-time on-screen guidance, Digital Adoption Platform); Daylight (low-code rapid digital-experience deployment); RPA partners (Automation Anywhere, SS&amp;C Blue Prism, UiPath, Automation Edge); consulting/GSI (Accenture, Tech Mahindra, EY, Cognizant, FirstSource, Deloitte, Wipro, Capgemini, KPMG). Sales motion: observability-first ("see what's really happening"), sales-assisted only (no free trial/community edition, every CTA is "book a demo"), leans heavily on analyst credibility (4.9/5 Gartner rating cited, Forbes/Fortune/HBR coverage) rather than brand-marketing spend. GSI-led delivery with an F&amp;A/procurement-first vertical focus; North America is the core market, UK the fastest-growing.</p>
+
+      <h3>Soroco's blind spots vs. Celonis's advantage</h3>
+      <details open=""><summary>Data capture &amp; prep — the desktop ceiling</summary><div class="body"><p>Soroco is fundamentally interaction-data-first; it lacks native backend database-level event-log extraction that classical process mining requires. Celonis ingests actual database transactions via 100+ connectors, merged with desktop task data through OCPM.</p></div></details>
+      <details><summary>AI-powered discovery — the systemic blind spot</summary><div class="body"><p>Soroco maps human interactions across apps well but struggles to reconstruct complex backend transactional lifecycles without manual setup or external process-mining partnerships. Celonis reconstructs both human tasks and system bottlenecks, loops and parallel paths natively at petabyte scale.</p></div></details>
+      <details><summary>Conformance checking — observational, not enforcing</summary><div class="body"><p>Soroco focuses on continuous monitoring and "digital adoption" — it nudges/alerts but cannot actively intervene to block a non-compliant ERP action. Celonis Action Flows autonomously halt non-compliant actions before execution.</p></div></details>
+      <details><summary>Process enablement, automation dependency, other use cases</summary><div class="body"><p>Soroco cannot simulate the deep systemic (financial/temporal) impact of eliminating structural process steps across a multi-tier ERP landscape, and identifies automation opportunities but depends entirely on external platforms (UiPath, Automation Anywhere) to execute them. It also over-indexes on digital adoption/training via Whatfix rather than systemic working-capital optimization. Celonis simulates structural redesign, executes natively via Action Flows, and links productivity directly to working-capital and bottom-line KPIs via domain-specific apps.</p></div></details>
+      <details><summary>Integrations, privacy &amp; security, scalability &amp; stability</summary><div class="body"><p>Buyers often must purchase Soroco for discovery plus a separate automation platform for execution — a fragmented pipeline. Soroco lacks full FedRAMP authorization for US government/defense deployments. And while it scales well for user-tracking, it functions as a siloed task-data repository rather than a unified enterprise process-intelligence platform connected deeply to core ERPs. Celonis is a single integrated platform, FedRAMP-authorized, and handles billions of concurrent transaction rows across multinational business units.</p></div></details>
+
+      <h3>Deal qualification, objection handling &amp; silver bullets</h3>
+      <p class="small">The source deck's Soroco-specific deal-qualification matrix, objection-handling and silver-bullet slides are, on inspection, <b>verbatim duplicates of the Skan.ai battlecard's content</b> (identical "Skan.ai" differentiator table, identical "Skan.Ai" pricing figures and identical objection language appear under the Soroco header). This is very likely an unfinished copy-paste placeholder rather than intentional reuse — <b>do not cite Skan-specific figures (e.g. "~350 user cap," "$130M funding," "180 employees") as Soroco facts.</b> Soroco's own verified facts (300 employees, self-funded, $44–75M est. revenue) are captured above and should be the only figures used for Soroco specifically until Sales Enablement drafts Soroco-specific qualification and objection content.</p>
+    </div>
+  </section>
+
+  <!-- ============ 12 · PARTNER ECOSYSTEM (PYZE) ============ -->
+  <section class="panel p12">
+    <div class="wrap">
+      <p class="sec-eyebrow">12</p>
+      <h2>Partner ecosystem — Pyze is Celonis's strongest proof-point engine, and it's running on outdated messaging</h2>
+      <p class="lede">Pyze is a Celonis-powered partner solution built on the Process Intelligence platform. The deck's own action items say the partnership's core messaging problem is internal, not external: Pyze's Celonis overview slide has not been updated, so Pyze continues pitching Celonis as a Process Intelligence solution rather than as a Context Layer platform.</p>
+
+      <h3>Pyze in action — named logo use cases</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:260px">Use case</th><th>What Pyze delivers</th></tr></thead>
+        <tbody>
+          <tr><td>Enable Process Mining for SAP Service Cloud</td><td>Continuous, non-intrusive monitoring filling visibility gaps in SAP logs to enable process mining and improve agent productivity</td></tr>
+          <tr><td>Optimize Claims Handling on SnapSheet</td><td>Produces audit logs and behavioral insight to enable claims processing</td></tr>
+          <tr><td>Improve Financial Crime Handling Times across Pega and Home-Grown Systems</td><td>Improves productivity across financial-crime functions including KYC, fraud and sanctions</td></tr>
+          <tr><td>Scale EMR Onboarding Productivity Nationwide</td><td>Replaces slow manual time-studies with continuous measurement of complex EMR systems</td></tr>
+          <tr><td>Improve Productivity for Enterprise Guidewire ClaimCenter and Pega Use Cases</td><td>Tracks user productivity across P&amp;C processes from claims to complaints to identify efficiency opportunities</td></tr>
+          <tr><td>Improve Pega Customer Service Handling Times &amp; Identify Automations</td><td>Monitors 16,000 customer-service agents globally to increase productivity and enable straight-through-processing opportunities</td></tr>
+          <tr><td>Enable Process Mining for Coupa</td><td>Produces audit logs and behavioral insight to enable procurement process mining</td></tr>
+          <tr><td>Improve Salesforce Source-to-Cash Productivity</td><td>Produces behavioral insight to improve sales-team productivity in the source-to-cash process</td></tr>
+          <tr><td>Identify Agentic Automation Opportunities (Veeva + desktop)</td><td>Explicitly labeled in source as a <b>Mimica replacement</b> use case</td></tr>
+          <tr><td>Identify Agentic Automation Opportunities (Treasury Customer Service, Pega)</td><td>Improves user productivity and identifies AI automation opportunities</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>Pyze use-case framework</h3>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:230px">Offering</th><th style="width:130px">Powered by</th><th>Continuous value pattern</th></tr></thead>
+        <tbody>
+          <tr><td>Workforce Productivity &amp; Capacity Reclamation</td><td>PM · TM · PI</td><td>Quantify where time goes; reclaim hours per FTE per week through evidence-based prioritization. Capacity baselines tighten quarter over quarter as new reclaimable pockets surface.</td></tr>
+          <tr><td>User Behavior &amp; Effort Studies</td><td>TM · PI</td><td>Project-shaped diagnostic (4–8 weeks) producing an evidence-rich behavioral report. One-time report becomes cohort-tracked drift across tenure, role and geography.</td></tr>
+          <tr><td>Process Discovery &amp; Variant Standardization</td><td>PM · TM · PI</td><td>Maps the as-is, surfaces unwanted variation, defines the to-be reference flow, with automatic drift detection when variants re-emerge.</td></tr>
+          <tr><td>SOP Conformance &amp; Audit Readiness</td><td>PM · TM · PI</td><td>Measures SOP adherence; generates evidence packages for GxP and internal audits. Conformance lifts quarter over quarter; audit evidence is pre-built.</td></tr>
+          <tr><td>Automation Opportunity Backlog</td><td>PM · TM · PI</td><td>Ranked, evidence-backed automation candidates with ROI estimates and target-screen detail, tracked through deployment and post-deploy adoption.</td></tr>
+          <tr><td>SLA &amp; Performance Risk Management</td><td>PM · PI</td><td>Bottleneck diagnostics plus real-time breach-risk alerts, evolving into a predictive risk model that learns from realized outcomes.</td></tr>
+        </tbody>
+      </table></div>
+
+      <h3>Celonis Enterprise Productivity Suite vs. Soroco/Skan/Mimica — Pyze's own framing</h3>
+      <div class="note"><p>Pyze's positioning line: <b>"Celonis: Transparent, Scalable, Actionable"</b> vs. traditional task mining's black-box, export-and-delayed-report model. Feature claims: end-to-end platform connecting tasks across desktop and web to eliminate "swivel-chair" blind spots; self-service, real-time access to raw and curated data; insight in days not weeks; multi-level/multi-modal capture with surgical monitoring selection; codified process knowledge distinguishing real repeatable variation from weak data; continuous SOP discovery as processes evolve; native integration with process mining and Action Flows; and process predictions/recommendations grounded in root-cause evidence.</p></div>
+
+      <h3>Ecosystem &amp; GTM positioning (appendix)</h3>
+      <p>The deck's ecosystem-positioning appendix (slides 102–105) compares the four competitors' technology-partner and SI/consulting-partner breadth at a category level, largely restating what's already covered per-vendor in §08–§11 (Mimica's automation partners, KYP's SAP/iGrafx/GSI network, Skan's Persistent/iGrafx/consulting roster, Soroco's Microsoft/Whatfix/GSI roster). One line of new framing: Soroco is described as running the <b>broadest SI ecosystem</b> — covering Tier-1 global SIs for strategy, implementation and change management — while KYP.ai runs a <b>strategy-led partnership model</b> targeting top-tier strategy/transformation firms for market access. No new named partners appear beyond what §09–§11 already list.</p>
+    </div>
+  </section>
+
+  <!-- ============ 13 · DATA QUALITY & SOURCES ============ -->
+  <section class="panel p13">
+    <div class="wrap">
+      <p class="sec-eyebrow">13</p>
+      <h2>Data quality flags — read this before using anything above externally</h2>
+      <p class="lede">Gagan's own caveat on sharing the source deck was explicit: several slides are WIP and content may not be accurate. This section consolidates every place in this file where that caveat materially changes how a claim should be used.</p>
+
+      <div class="srcgrp"><h4>Unresolved internal conflicts — do not present as settled</h4>
+        <div class="scroll"><table class="tbl">
+          <thead><tr><th style="width:230px">Conflict</th><th>What disagrees</th><th style="width:150px">Where</th></tr></thead>
+          <tbody>
+            <tr><td><b>Capability scorecard, Table 1 vs. Table 2</b></td><td>Table 1: Celonis leads 8 of 10 dimensions. Table 2: Soroco leads or ties on 6 of 10. Both marked "To be updated" in source.</td><td>§02</td></tr>
+            <tr><td><b>Internal scorecards vs. external Everest DII exhibit</b></td><td>Both internal tables show Celonis competitive-to-leading on most dimensions; the external Everest DII exhibit (per prior Celonis market-intelligence work) shows Celonis leading none outright and tying 2nd on only 3 of 9 dimensions, with Soroco strongest.</td><td>§02, §11</td></tr>
+            <tr><td><b>KYP.ai battlecard content, likely mis-copied from Skan</b></td><td>KYP's deal-qualification and objection slides cite Skan-specific stats (180 employees, $130M funding, 350-user cap) under the KYP.ai header.</td><td>§09</td></tr>
+            <tr><td><b>Soroco battlecard content, likely mis-copied from Skan</b></td><td>Soroco's deal-qualification, objection-handling and silver-bullet slides verbatim-duplicate the Skan.ai battlecard, including Skan-specific pricing and headcount figures.</td><td>§11</td></tr>
+            <tr><td><b>Market-size chart year mapping</b></td><td>The 2021/2022/2023/2025E bar values ($70–80M / $130–140M / $215–225M / $580–600M) were reconstructed from a monotonic growth assumption, not read directly off labeled bars in the text extraction.</td><td>§01</td></tr>
+            <tr><td><b>Two market-positioning 2×2 charts, axis labels partially unrecoverable</b></td><td>Slide 34's quadrant labels ("Automation Discovery," "AI Transformation Suite," etc.) could not be cleanly mapped to quadrant positions from the flattened text; slide 35 was used instead and is more legible, but still directional.</td><td>§02</td></tr>
+          </tbody>
+        </table></div>
+      </div>
+
+      <div class="srcgrp"><h4>Content explicitly marked "To be updated" / "WIP" in the source — treated as incomplete, not analyzed</h4>
+        <ul class="tight">
+          <li>Task Mining vs. Process Intelligence definitional slide (deck p.8)</li>
+          <li>Everest POV "Market Perception" summary cell (deck p.20)</li>
+          <li>Both capability scorecards in full (deck pp.36–37)</li>
+          <li>"What they cover well / Missing or shallow" cells for all four competitors in the positioning-overview table (deck p.38)</li>
+          <li>Use-case comparison table header (deck p.40)</li>
+          <li>Celonis Differentiators — Data Capture and Prep, AI-Powered Discovery, Conformance, Process Enablement, Automation &amp; Agentic AI, Other Use Cases, Complementary Tech, and duplicate Privacy/Scalability/Stability cells (deck pp.42–44)</li>
+          <li>KYP.ai deal-qualification matrix, objection handling ×2 (deck pp.73–75, each marked "WIP" directly)</li>
+        </ul>
+      </div>
+
+      <div class="srcgrp"><h4>Discrepancies resolved by this source vs. the prior content brief</h4>
+        <ul class="tight">
+          <li><b>Mimica pricing model</b> — resolved. 2024 credit-model reversion after client backlash confirmed with an explicit footnote (source slide 41); the June 2025 Everest description of Mimica's AI-credit pricing was accurate at time of publication but describes a model Mimica has since mostly abandoned. See §05.</li>
+          <li><b>Skan acquisition spelling ("Metacular" vs. "Metaculus")</b> — the source consistently spells it <b>Metaculus</b> (with one instance of "Metaculars"), but this deck is itself WIP/user-flagged as possibly inaccurate — still treat as unconfirmed pending a primary-source check (Skan's own press release or SEC/Crunchbase filing) before external use.</li>
+          <li><b>Use-case table Celonis column</b> — confirmed present (§04), correcting the prior brief's broader assumption that no Celonis-inclusive competitive framework existed in this deck; the Competitor Positioning Deep Dive framework (§03) remains genuinely Celonis-free, which the prior brief also correctly flagged.</li>
+        </ul>
+      </div>
+
+      <h4>Primary source</h4>
+      <div class="scroll"><table class="tbl">
+        <thead><tr><th style="width:230px">Item</th><th>Source</th></tr></thead>
+        <tbody>
+          <tr><td>Entire deck content (all sections)</td><td>"Task Mining New Battlecard_WIP" — internal Google Slides deck, Asset Owner: Strategy &amp; Innovation (Market Intelligence), g.bajpai@celonis.com. Read in full, 2,390-line text extraction, 105 slides, all four battlecards. Shared by Gagan Bajpai, Sept 2026, with explicit caveat that some slides are WIP.</td></tr>
+          <tr><td>Everest DII exhibit cross-reference (§02, §11)</td><td>Prior Celonis market-intelligence engagement, internal memory record — Everest Group DII State of Market, Aug 2026 assessment.</td></tr>
+        </tbody>
+      </table></div>
+      <footer class="cred">Celonis · Strategy &amp; Innovation (Market Intelligence) · Internal Only — Celonis Confidential. Source deck marked WIP by its owner; several tables and slides are explicitly incomplete or internally inconsistent as flagged throughout this file. Do not circulate externally or use "To be updated" content as finished analysis.</footer>
+    </div>
+  </section>
+
+  </main>
+</div>
+
+
+</body></html>
